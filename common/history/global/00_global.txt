@@ -1,0 +1,491 @@
+﻿# This is executed last among all history
+GLOBAL = {
+	
+	every_power_bloc = {	
+	add_modifier = {
+		name = nato_modifier
+		days = -1
+		multiplier = 1
+		}
+	}
+	
+	every_country = {
+		every_scope_state = {
+			force_resource_discovery = bg_oil_extraction
+			force_resource_discovery = bg_rubber
+		}
+	}
+	c:USA = {
+		set_next_election_date = 1993.01.20 #YYYY.MM.DD
+	}
+	c:CBD = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_1 = yes
+			effect_prune_excess_buildings = yes
+		}
+		s:STATE_CAMBODIA = {
+			region_state:CBD = {
+				create_building = {
+					building = "building_angkor_wat"
+					level = 1
+					reserves = 1
+				}
+			}
+		}
+	}
+	c:IDA = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_PRC_IDA_1 = yes
+			#effect_starting_buildings_2 = yes
+			effect_prune_excess_buildings = yes
+		}
+		s:STATE_RAJPUTANA = {
+			region_state:IDA = {
+				create_building = {
+					building = "building_taj_mahal"
+					level = 1
+					reserves = 1
+				}
+			}
+		}
+		s:STATE_BOMBAY = {
+			region_state:IDA = {
+				create_building = {
+					building = "building_victoria_terminus"
+					level = 1
+					reserves = 1
+				}
+			}
+		}
+	}
+	c:EGY = {
+		every_scope_state = { limit = { state_has_sufficient_population = yes }
+			effect_starting_buildings_2 = yes
+			effect_prune_excess_buildings = yes
+		}
+		s:STATE_LOWER_EGYPT = {
+			region_state:EGY = {
+				create_building = {
+					building = "building_giza_necropolis"
+				}
+			}
+		}
+	}
+	c:BRZ = {
+		s:STATE_RIO_DE_JANEIRO = {
+			region_state:BRZ = {
+				create_building = {
+					building = "building_cristo_redentor"
+				}
+			}
+		}
+	}
+	s:STATE_PANAMA = {
+		region_state:PNM = {
+			create_building = {
+				building = building_panama_canal
+				level = 1
+				reserves = 1
+				activate_production_methods = {
+					pm_canal
+				}
+			}
+		}
+	}
+	c:PEU = {
+		every_scope_state = { #limit = { state_has_sufficient_population = yes }
+			 effect_starting_buildings_3 = yes
+			effect_prune_excess_buildings = yes
+		}
+		s:STATE_ICA = {
+			region_state:PEU = {
+				create_building = {
+					building = "building_machu_picchu"
+				}
+			}
+		}
+	}
+		s:STATE_EASTERN_MALI = {
+			region_state:MLI = {
+				create_building = {
+					building = "building_mosque_of_djenne"
+					level = 1
+					reserves = 1
+				}
+			}
+		}
+		s:STATE_TAHITI = {
+			region_state:FRA = {
+				create_building = {
+					building = "building_easter_island_heads"
+				}
+			}
+		}
+		s:STATE_MAURITANIA = {
+			region_state:MAU = {
+				create_building = {
+					building = "building_eye_of_sahara"
+				}
+			}
+		}
+		s:STATE_HOME_COUNTIES = {
+			region_state:GBR = {
+				create_building = {
+					building = "building_big_ben"
+					level = 1
+					reserves = 1
+				}
+			}
+		}
+		
+		c:USA ?= {
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_great_plains
+			name = us_army_central
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_howitzer_artillery
+				state_region = s:STATE_TEXAS
+				count = 80
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_multirole_aircraft
+				state_region = s:STATE_NEW_YORK
+				count = 35
+			}
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_new_england
+			name = us_marine_corps
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_howitzer_artillery
+				state_region = s:STATE_NEW_YORK
+				count = 35
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_light_infantry
+				state_region = s:STATE_OHIO
+				count = 50
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_multirole_aircraft
+				state_region = s:STATE_NEW_YORK
+				count = 15
+			}
+			
+			save_scope_as = regular_army
+		}
+
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = us_national_guard
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_howitzer_artillery
+				state_region = s:STATE_NEW_YORK
+				count = 15
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_light_infantry
+				state_region = s:STATE_OHIO
+				count = 75
+			}
+		}
+		
+		create_military_formation = {
+			type = army
+			hq_region = sr:region_dixie
+			name = us_special_forces
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_stealth_aircraft
+				state_region = s:STATE_NEW_YORK
+				count = 15
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_light_infantry
+				state_region = s:STATE_OHIO
+				count = 15
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_dixie
+			name = us_coast_guard
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_VIRGINIA
+				count = 20
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_VIRGINIA
+				count = 10
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_helicopter_carrier
+				state_region = s:STATE_VIRGINIA
+				count = 3
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_awacs
+				state_region = s:STATE_VIRGINIA
+				count = 2
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_new_england
+			name = uss_forrestal
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_carrier
+				state_region = s:STATE_NEW_YORK
+				count = 3
+			}
+			
+			combat_unit = {
+				type = unit_type:combat_unit_type_battleship
+				state_region = s:STATE_NEW_YORK
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cruiser
+				state_region = s:STATE_NEW_YORK
+				count = 2
+			}
+
+			combat_unit = { # Ahistorical
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_NEW_YORK
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_nuclear_submarine
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+			
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_new_england
+			name = uss_kitty_hawk
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_supercarrier
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cruiser
+				state_region = s:STATE_NEW_YORK
+				count = 2
+			}
+
+			combat_unit = { # Ahistorical
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_NEW_YORK
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_nuclear_submarine
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+		}
+			
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_new_england
+			name = uss_enterprise
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_supercarrier
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cruiser
+				state_region = s:STATE_NEW_YORK
+				count = 2
+			}
+
+			combat_unit = { # Ahistorical
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_NEW_YORK
+				count = 4
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_nuclear_submarine
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+		}
+		
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_pacific_coast
+			name = uss_nimitz
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_supercarrier
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cruiser
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = { # Ahistorical
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_NEW_YORK
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_nuclear_submarine
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_awacs
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+		}
+		
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_pacific_coast
+			name = uss_carl_vinson
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_supercarrier
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cruiser
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = { # Ahistorical
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_NEW_YORK
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_nuclear_submarine
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_awacs
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+		}
+		
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_pacific_coast
+			name = uss_theodore_roosevelt
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_supercarrier
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cruiser
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = { # Ahistorical
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_NEW_YORK
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_nuclear_submarine
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_awacs
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+		}
+		
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_pacific_coast
+			name = uss_dwight_d_eisenhower
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_supercarrier
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cruiser
+				state_region = s:STATE_NEW_YORK
+				count = 5
+			}
+
+			combat_unit = { # Ahistorical
+				type = unit_type:combat_unit_type_destroyer
+				state_region = s:STATE_NEW_YORK
+				count = 3
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_nuclear_submarine
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+			combat_unit = {
+				type = unit_type:combat_unit_type_awacs
+				state_region = s:STATE_MASSACHUSETTS
+				count = 1
+			}
+		}
+		
+	}
+	
+}
+	

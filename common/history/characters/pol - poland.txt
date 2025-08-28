@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:POL ?= {
+	create_character = {
+			first_name = "jan"
+			last_name = "olszewski"
+			historical = yes
+			ruler = yes
+			culture = cu:polish
+			birth_date = 1930.3.31
+			dna = dna_jan_olszewski
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_conservative_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

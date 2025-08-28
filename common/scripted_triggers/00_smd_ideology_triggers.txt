@@ -1,0 +1,161 @@
+﻿
+### Ideology Scripted Triggers - all within interest_group scope.
+### I will not take responsibility for the transgressions of Humanity.
+
+ideology_traditionalist_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_landowners
+		is_interest_group_type = ig_devout
+		is_interest_group_type = ig_servants
+	}
+}
+
+ideology_libertarian_leader_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_servants
+		is_interest_group_type = ig_professionals
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_industrialists
+	}
+}
+
+ideology_radical_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_industrialists
+	}
+}
+
+ideology_progressive_leader_valid_trigger = {
+		is_interest_group_type = ig_professionals
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_servants
+}
+
+ideology_green_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+	}
+}
+
+ideology_jihadist_leader_valid_trigger = {
+	NOR = {
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_landowners
+	}
+}
+
+ideology_social_democrat_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_devout
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_armed_forces
+	}
+}
+
+ideology_communist_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_armed_forces
+	}
+}
+
+ideology_fascist_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_armed_forces
+	}
+}
+
+ideology_anarchist_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+	}
+}
+
+ideology_liberal_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_landowners
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_servants
+		is_interest_group_type = ig_industrialists
+	}
+}
+
+ideology_conservative_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_landowners
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_servants
+		is_interest_group_type = ig_industrialists
+	}
+}
+
+ideology_humanitarian_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+	}
+}
+
+ideology_jacksonian_democrat_valid_trigger = {
+
+}
+
+ideology_positivist_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_armed_forces
+		is_interest_group_type = ig_industrialists
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_petty_bourgeoisie
+	}
+}
+
+ideology_land_reformer_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_petty_bourgeoisie
+	}
+}
+
+ideology_integralist_valid_trigger = {
+	OR = {
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_landowners
+		is_interest_group_type = ig_devout
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_armed_forces
+	}
+}
+
+ideology_liberal_leader_valid_trigger = {
+	
+}
+
+ideology_corporatist_leader_valid_trigger = {
+
+}
+

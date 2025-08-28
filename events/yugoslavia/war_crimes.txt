@@ -1,0 +1,164 @@
+﻿# War Crimes in Bosnia
+
+namespace = yugoslav_war_crimes
+
+# --- War Crime 1: Siege of Sarajevo ---
+yugoslav_war_crimes.1 = {
+    type = country_event
+    title = yugoslav_war_crimes.1.t
+    desc = yugoslav_war_crimes.1.d
+    event_image = { video = "yugoslav_war" }
+	
+    trigger = {
+		NOT = { has_variable = sarajevo_happened }
+        OR = {
+			c:SRB ?= this
+			c:SRP ?= this
+		}
+		c:BOS = {
+			enemy_occupation > 0.20
+		}
+        game_date >= 1992.5.1
+    }
+
+    option = {
+        name = yugoslav_war_crimes.1.a
+		set_variable = sarajevo_happened
+        add_modifier = {
+            name = international_condemnation
+            months = 12
+        }
+        add_radicals = {
+            value = 0.05
+            pop_type = laborers
+        }
+        add_relations = { target = c:USA value = -25 }
+        add_relations = { target = c:GBR value = -25 }
+        add_relations = { target = c:FRA value = -25 }
+		every_country = { limit = { NOT = { OR = {
+			c:SRB ?= this
+			c:SRP ?= this
+		} } }
+        trigger_event = { id = yugoslav_war_crimes.3 days = 3 }
+		}
+		c:BOS = { trigger_event = { id = yugoslav_war_crimes.5 days = 3 } }
+    }
+}
+
+
+# --- War Crime 2: Srebrenica Massacre ---
+yugoslav_war_crimes.2 = {
+    type = country_event
+    title = yugoslav_war_crimes.2.t
+    desc = yugoslav_war_crimes.2.d
+    event_image = { video = "yugoslav_war" }
+
+    trigger = {
+		NOT = { has_variable = srebrenica_happened }
+         OR = {
+			c:SRB ?= this
+			c:SRP ?= this
+		}
+		c:BOS = {
+			enemy_occupation > 0.20
+		}
+        game_date >= 1995
+    }
+
+    option = {
+        name = yugoslav_war_crimes.2.a
+		set_variable = srebrenica_happened
+        add_modifier = {
+            name = international_condemnation
+            months = 24
+        }
+        add_radicals = {
+            value = 0.15
+            pop_type = soldiers
+        }
+        add_relations = { target = c:USA value = -25 }
+        add_relations = { target = c:ENG value = -25 }
+        add_relations = { target = c:FRA value = -25 }
+        every_country = { limit = { NOT = { OR = {
+			c:SRB ?= this
+			c:SRP ?= this
+		} } }
+        trigger_event = { id = yugoslav_war_crimes.4 days = 3 }
+		}
+    }
+}
+
+# --- International Response to Siege of Sarajevo ---
+yugoslav_war_crimes.3 = {
+    type = country_event
+    title = yugoslav_war_crimes.3.t
+    desc = yugoslav_war_crimes.3.d
+    event_image = { video = "yugoslav_war" }
+
+    option = {
+        name = yugoslav_war_crimes.3.a
+        add_relations = { target = c:SRB value = -50 }
+        add_obligation = { target = c:BOS }
+		set_owes_obligation = {
+			country = c:BOS
+			setting = yes
+			}
+    }
+    option = {
+        name = yugoslav_war_crimes.3.b
+        add_relations = { target = c:SRB value = -20 }
+		set_owes_obligation = {
+			country = c:BOS
+			setting = yes
+			}
+    }
+}
+
+# --- International Response to Srebrenica Massacre ---
+yugoslav_war_crimes.4 = {
+    type = country_event
+    title = yugoslav_war_crimes.4.t
+    desc = yugoslav_war_crimes.4.d
+    event_image = { video = "yugoslav_war" }
+
+    option = {
+        name = yugoslav_war_crimes.4.a
+        add_relations = { target = c:SRB value = -75 }
+        set_owes_obligation = {
+			country = c:BOS
+			setting = yes
+			}
+    }
+    option = {
+        name = yugoslav_war_crimes.4.b
+        add_relations = { target = c:SRB value = -25 }
+    }
+}
+
+# --- Bosnia Notification: Srebrenica Massacre ---
+yugoslav_war_crimes.5 = {
+    type = country_event
+    title = yugoslav_war_crimes.5.t
+    desc = yugoslav_war_crimes.5.d
+    event_image = { video = "yugoslav_war" }
+
+    immediate = {
+        add_radicals = {
+            value = 0.1
+            pop_type = soldiers
+        }
+        add_radicals = {
+            value = 0.05
+            pop_type = machinists
+        }
+    }
+
+    option = {
+        name = yugoslav_war_crimes.5.a
+		 add_modifier = {
+            name = national_grief
+            months = 12
+        }
+    }
+}
+

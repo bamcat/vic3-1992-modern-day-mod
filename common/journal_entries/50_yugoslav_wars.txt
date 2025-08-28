@@ -1,0 +1,151 @@
+je_collapse_of_yugoslavia = {
+	icon = "gfx/interface/icons/event_icons/event_war.dds"
+	group = je_group_foreign_policy
+
+	is_shown_when_inactive = {
+		c:SRB ?= this
+		year >= 1992
+		NOT = { has_variable = yugoslavia_has_collapsed }
+	}
+
+	possible = {
+		c:SRB ?= this
+		year >= 1992
+		NOT = { has_variable = yugoslavia_has_collapsed }
+	}
+
+	complete = {
+		has_variable = yugoslavia_has_collapsed
+	}
+
+	on_complete = {
+		set_variable = yugoslavia_has_collapsed
+		remove_variable = yugoslavia_tensions_rising
+		c:SRB = {
+		add_modifier = {
+			name = post_yugoslav_turmoil
+			days = 1825
+		}
+		}
+		custom_tooltip = yugoslavia_collapse_tt
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			100 = yugoslavia.1
+		}
+	}
+	should_be_pinned_by_default = yes
+}
+
+je_reunify_yugoslavia = {
+	icon = "gfx/interface/icons/event_icons/event_war.dds"
+	group = je_group_dilemmas
+
+	is_shown_when_inactive = {
+		c:SRB ?= this
+		has_variable = yugoslavia_has_collapsed
+	}
+
+	possible = {
+		c:SRB ?= this
+		has_variable = yugoslavia_has_collapsed
+	}
+
+	complete = {
+		has_variable = yugoslavia_reunified
+	}
+
+	fail = { game_date >= 2000.1.2 }
+	
+	on_complete = {
+		add_modifier = {
+			name = yugoslav_restoration_success
+			days = 1825
+		}
+		custom_tooltip = reunification_success_tt
+	}
+
+	on_monthly_pulse = {
+	OR = {
+		if = {
+			limit = {
+				has_diplomatic_pact = {
+					country = HRV
+					type = alliance
+				}
+				has_diplomatic_pact = {
+					country = BOS
+					type = alliance
+				}
+				num_subjects >= 3
+			}
+			set_variable = yugoslavia_reunified
+		  }
+		 if = {
+		 AND = { limit = {
+				s:STATE_BOSNIA = {
+				owner = SRB
+				}
+				s:STATE_CROATIA = {
+				owner = SRB
+				}
+				s:STATE_SLOVENIA = {
+				owner = SRB
+				}
+				s:STATE_MACEDONIA = {
+				owner = SRB
+				}
+				s:STATE_MONTENEGRO = {
+				owner = SRB
+				}
+				s:STATE_SOUTHERN_SERBIA = {
+				owner = SRB
+				}
+				s:STATE_VLASENICA = {
+				owner = SRB
+				}
+				s:STATE_MONTENEGRO = {
+				owner = SRB
+				}
+				}
+				set_variable = yugoslavia_reunified
+			}
+		  }
+		}
+	}
+}
+
+je_yugoslav_wars_serbia = {
+    icon = "gfx/interface/icons/event_icons/event_war.dds"
+    group = je_group_dilemmas
+
+    is_shown_when_inactive = {
+	OR = {
+        c:SRB ?= this
+		c:SRP ?= this
+		c:HRV ?= this
+		c:BOS ?= this
+		c:MCD ?= this
+		c:ALB ?= this
+		}
+    }
+
+    possible = {
+        OR = {
+        c:SRB ?= this
+		c:SRP ?= this
+		c:HRV ?= this
+		c:BOS ?= this
+		c:MCD ?= this
+		c:ALB ?= this
+		}
+        game_date < 2006.1.1
+    }
+
+    complete = {
+            game_date >= 2006.1.1
+    }
+
+    should_be_pinned_by_default = yes
+}

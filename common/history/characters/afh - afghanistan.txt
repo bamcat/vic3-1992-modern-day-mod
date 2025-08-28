@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:AFH ?= {
+	create_character = {
+			first_name = "mohammad"
+			last_name = "najibullah"
+			historical = yes
+			ruler = yes
+			culture = cu:pashtun
+			birth_date = 1947.3.31
+			dna = dna_mohammad_najibullah
+			ig_leader = yes
+			interest_group = ig_armed_forces
+			ideology = ideology_communist_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

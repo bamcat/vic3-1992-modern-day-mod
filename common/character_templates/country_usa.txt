@@ -1,0 +1,100 @@
+﻿### USA character template file ###
+# USA - United States of America
+
+# United States - USA
+
+usa_george_bush_character_template = {
+    first_name = george
+    last_name = w_bush
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_conservative_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1946.7.06
+    dna = dna_george_w_bush
+    traits = {
+        experienced_political_operator
+        tactful
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            this = c:USA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 1997.2.12
+        latest_usage_date = 2004.1.1
+        chance = 100
+    }
+}
+
+usa_trump_character_template = {
+    first_name = donald
+    last_name = trump
+    historical = yes
+    culture = cu:yankee
+    female = no
+    religion = rel:protestant
+    ideology = ideology_populist_leader
+    interest_group = ig_professionals
+    birth_date = 1946.9.06
+    dna = dna_trump
+    traits = {
+        experienced_political_operator
+		direct
+		arrogant
+		bigoted
+		charismatic
+        tactful
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            this = c:USA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_professionals
+        }
+        earliest_usage_date = 2012.2.12
+        latest_usage_date = 2028.1.1
+        chance = 100
+    }
+}
+
+usa_obama_character_template = {
+    first_name = barack_hussein
+    last_name = obama
+    historical = yes
+    culture = cu:afro_american
+    female = no
+    religion = rel:protestant
+    ideology = ideology_liberal_leader
+    interest_group = ig_petty_bourgeoisie
+    birth_date = 1964.8.04
+    dna = dna_obama
+    traits = {
+        experienced_political_operator
+        inspirational_orator
+        tactful
+		charismatic
+    }
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            this = c:USA
+        }
+        interest_group_trigger = {
+            is_marginal = no
+            is_interest_group_type = ig_petty_bourgeoisie
+        }
+        earliest_usage_date = 2005.2.12
+        latest_usage_date = 2016.1.1
+        chance = 100
+    }
+}

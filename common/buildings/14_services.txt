@@ -1,0 +1,50 @@
+﻿# SERVICES
+
+# building_retailer = { # buy processed or raw foods n sell for marked-up price
+#	building_group = bg_light_industry
+#	icon = "gfx/interface/icons/building_icons/retailer.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	
+#	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
+#	
+#	unlocking_technologies = {
+#	international_trade
+#	}
+#
+#	production_method_groups = {
+#		pmg_base_retailer
+#		pmg_base_delivery
+#	}
+#
+#	required_construction = construction_cost_high
+#	ownership_type = self
+#
+#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+# }
+
+building_professional_service = { #food processing, buy all foods, turn into procressed, which sell more. give skyscraper model
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/professional_service.dds"
+	city_type = city
+	levels_per_mesh = 1
+	override_centerpiece_mesh = yes
+	centerpiece_mesh_weight = 0.5
+	entity_constructed = { "european_city_centerpiece_skyscraper_01_mesh" }
+	
+	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+
+	production_method_groups = {
+		pmg_base_profser
+		pmg_base_profser_type
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}

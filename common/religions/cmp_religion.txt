@@ -1,0 +1,65 @@
+﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+taoism = {
+	texture = "gfx/interface/icons/religion_icons/taoism.png"
+	traits = {
+		eastern
+	}
+	color = { 0.6 0.71 0.76 }
+}
+
+confucianism = {
+	texture = "gfx/interface/icons/religion_icons/confucianism.png"
+	traits = {
+		eastern
+	}
+	color = { 0.98 0.69 0.01 }
+}
+
+wiccan = {
+	texture = "gfx/interface/icons/religion_icons/wiccan.png"
+	traits = {
+		animist
+	}
+	color = { 0.18 0.17 0.51 }
+}
+
+satanism = {
+	texture = "gfx/interface/icons/religion_icons/satanism.png"
+	traits = {
+		animist
+	}
+	color = { 0.72 0.07 0.02 }
+}
+
+pagan = {
+	texture = "gfx/interface/icons/religion_icons/pagan.png"
+	traits = {
+		animist
+	}
+	color = { 0.58 0.46 0.69 }
+}
+
+atheism = {
+	texture = "gfx/interface/icons/religion_icons/atheism.png"
+	traits = {
+		animist
+	}
+	color = { 0.58 0.46 0.69 }
+}
+
+jedi = {
+	texture = "gfx/interface/icons/religion_icons/jedi.png"
+	traits = {
+		animist
+	}
+	color = { 0.14 0.51 0.79 }
+}
+
+sith = {
+	texture = "gfx/interface/icons/religion_icons/sith.png"
+	traits = {
+		animist
+	}
+	color = { 0.79 0.14 0.14 }
+}

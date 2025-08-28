@@ -1,0 +1,116 @@
+﻿russia_parliament_resisting = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    country_legitimacy_add = -10
+    country_authority_mult = -0.05
+	country_bureaucracy_mult = -0.25
+}
+
+russia_military_loyalty = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = 4
+}
+
+russia_parliamentary_support = {
+   icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+   interest_group_approval_add = 2
+}
+
+russia_constitution_crisis_resolved_mod = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_authority_mult = 0.10
+}
+
+storm_of_the_century = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_infrastructure_mult = -0.20
+    state_mortality_mult = 0.15
+    building_throughput_mult = -0.05
+}
+
+great_flood_of_1993 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_infrastructure_mult = -0.25
+    state_mortality_mult = 0.08
+}
+
+nato_bombing_aftermath = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_infrastructure_mult = -0.25
+	state_mortality_mult = 0.05
+    country_authority_mult = -0.05
+}
+
+complacent_on_quebec = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    interest_group_approval = -4
+}
+
+southern_tour_reforms = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    interest_group_ig_industrialists_pop_attraction_mult = 0.25
+	interest_group_ig_intelligentsia_pop_attraction_mult = 0.25
+	state_infrastructure_mult = 0.15
+}
+
+left_nato = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_leverage_resistance_mult = 5.0
+}
+
+heightened_security_measures = {
+    country_authority_mult = -0.05
+    country_radicals_from_standard_of_living_mult = -0.05
+}
+
+limited_response = {
+    country_bureaucracy_mult = 0.05
+    country_authority_mult = -0.05
+}
+
+bin_laden_extradition_accepted_country = {
+    country_mobilization_speed_mult = 0.1
+    country_offense_mult = 0.05
+}
+
+bin_laden_extradition_accepted_ig_armed_forces = {
+    interest_group_approval_add = 2
+}
+
+bin_laden_extradition_rejected_country = {
+    country_mobilization_speed_mult = -0.05
+    country_defense_mult = -0.05
+}
+
+bin_laden_extradition_rejected_ig_armed_forces = {
+    interest_group_approval_add = 2
+}
+
+bin_laden_extradition_rejected_ig_armed_forces_2 = {
+    interest_group_approval_add = -2
+}
+
+ground_zero = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_infrastructure_mult = -0.25
+	state_mortality_mult = 0.25
+	state_standard_of_living_add = -4
+}
+
+intensified_intelligence_operations = {
+    country_authority_mult = 0.25
+	unit_army_offense_mult = 0.15
+}
+
+asian_economy_restrictions = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    building_group_bg_agriculture_throughput_add = -0.45
+	building_group_bg_agriculture_infrastructure_usage_mult = 0.35
+	state_market_access_price_impact = -0.25
+}
+
+booming_trade_economy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_market_access_price_impact = 0.25
+    state_export_advantage_mult = 0.25
+	country_minting_mult = 0.35
+}

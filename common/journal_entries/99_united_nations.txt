@@ -1,0 +1,18 @@
+je_united_nations = {
+	icon = "gfx/interface/icons/event_icons/event_united_nations.dds"
+	group = je_group_foreign_policy
+
+	is_shown_when_inactive = { always = yes }
+	possible = { always = yes }
+
+	on_monthly_pulse = {
+	}
+
+	scripted_button = sb_request_peacekeepers
+	scripted_button = un_propose_motion_button
+	
+    scripted_progress_bar = un_motion_progress_bar
+	
+	weight = 999
+	should_be_pinned_by_default = yes
+}

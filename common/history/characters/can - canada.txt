@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:CAN ?= {
+	create_character = {
+			first_name = "brian"
+			last_name = "mulroney"
+			historical = yes
+			ruler = yes
+			culture = cu:anglo_canadian
+			birth_date = 1939.3.31
+			dna = dna_mulroney
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_conservative_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

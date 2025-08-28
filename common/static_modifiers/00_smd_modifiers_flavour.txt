@@ -1,0 +1,98 @@
+﻿post_rwandan_genocide_reconstruction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_infrastructure_mult = -0.15
+	state_mortality_mult = 0.25
+}
+
+rwandan_genocide = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_infrastructure_mult = -0.25
+	state_mortality_mult = 0.25
+	state_lacustrine_bantu_standard_of_living_add = -4
+	state_luo_standard_of_living_add = -4
+	state_mortality_wealth_mult = 1.75
+}
+
+national_mourning_school_shooting = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	state_turmoil_effects_mult = 0.35
+}
+
+recent_mass_shooting = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -3
+}
+
+school_security_measures = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_ig_armed_forces_pop_attraction_mult = 0.25
+	country_authority_mult = -0.15
+}
+
+thoughts_and_prayers = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = 3
+}
+
+better_school_security = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = 3
+}
+
+attacked_on_home_soil = {
+    icon = icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_radicals_and_loyalists_from_sol_change_mult = 0.5
+    country_mobilization_mult = 0.10
+	state_turmoil_effects_mult = 0.5
+}
+
+war_on_terror_campaign = {
+    icon = icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_legitimacy_add = 50
+    country_authority_mult = 0.75
+    army_defense_mult = 0.05
+    # leave room for modder to add diplomatic/financial drains or IG effects
+}
+
+recent_ira_attack = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds.dds
+	state_protestant_standard_of_living_add = -3
+	state_catholic_standard_of_living_add = -3
+	state_infrastructure_from_population_mult = -0.05
+	state_mortality_turmoil_mult = 0.25
+	state_turmoil_effects_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.25
+}
+
+reunification_pride = {
+    country_legitimacy_base_add = 10
+    country_authority_mult = 0.15
+}
+
+nato_supports_us_in_iraq = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_military.dds
+    army_morale_mult = 0.1
+    army_offense_mult = 0.05
+}
+
+iraq_isolated = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_diplomacy_negative.dds
+    country_infamy_decay_mult = -0.15
+	army_defense_mult = 0.20
+	army_offense_mult = 0.20
+}
+
+iraq_condemned = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_diplomacy_negative.dds
+    radicals_from_standard_of_living_delta_mult = 0.2
+    country_legitimacy_add = 10
+	army_defense_mult = 0.20
+	army_offense_mult = 0.20
+}
+
+iraq_invasion = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_military.dds
+    army_morale_mult = 0.1
+    army_offense_mult = 0.1
+    war_support = 0.1
+}

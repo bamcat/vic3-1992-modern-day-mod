@@ -1,0 +1,43 @@
+﻿# Srpska
+
+namespace = sprska
+# War
+srpska.1 = {
+	type = country_event
+	placement = ROOT
+	title = srpska.1.t
+	desc = srpska.1.d
+	icon = "gfx/interface/icons/event_icons/event_war.dds"
+	event_image = { video = "yugoslav_war" }
+
+	immediate = {
+		save_scope_as = srpska_war_trigger_scope
+	}
+
+	option = {
+		name = srpska.1.a # Launch the war
+		default_option = yes
+		s:STATE_BOSNIA = {
+			add_claim = c:SRP
+		}
+		c:SRP = {
+		create_diplomatic_play = {
+			name = bosnia_war
+			type = dp_annex_war
+			target_country = c:BOS
+			
+			add_war_goal = {
+				holder = ROOT
+				type = annex_country
+				target_country = c:BOS
+			}
+			add_war_goal = {
+				holder = c:BOS
+				type = annex_country
+				target_country = SRP
+			}
+		}
+		}
+		custom_tooltip = srpska_war_launched_tt
+	}
+}

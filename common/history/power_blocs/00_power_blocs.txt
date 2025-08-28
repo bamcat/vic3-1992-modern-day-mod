@@ -1,0 +1,33 @@
+POWER_BLOCS = {
+	c:USA = {
+		create_power_bloc = {
+			name = "North Atlantic Treaty Organization"
+			map_color = { 0 73 144 }
+
+			founding_date = 1949
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+			add_modifer = nato_modifier
+			
+			member = c:GBR
+			member = c:XBE
+			member = c:CAN
+			member = c:XDE
+			member = c:FRA
+			member = c:ICE
+			member = c:ITA
+			member = c:XLU
+			member = c:NDL
+			member = c:NRW
+			member = c:GRK
+			member = c:TRK
+			member = c:GER
+			member = c:SPA
+			member = c:XPO
+			
+			# subjects are automatically part of the bloc
+		}
+
+	}
+	
+}

@@ -1,0 +1,77 @@
+# ensures historical events fire
+
+on_monthly_pulse_country = {
+		
+	set_global_variable = { un_motion_yes_votes value = 0 }
+    set_global_variable = { un_motion_no_votes value = 0 }
+		
+	##### historical events
+	events = {
+	# United Nations
+		un_events.99
+		un_events.309
+	# United States
+		north_hollywood.1
+		rodney.1
+		rodney.2	
+		american_disasters.1
+		american_disasters.2
+		columbine.1
+		usa_wot.1
+		usa_wot.3
+		usa_wot.10
+	# United Kingdom
+		ni_peace_events.1
+	# Iraq
+		iraq_events.1
+		iraq_events.2
+	# Canada
+		canada.1
+		quebec.2
+		quebec.6
+	# Other
+		cancer.1
+		indian_ocean_tsunami.1
+		eu_events.1
+	# Serbia
+		yugoslav_war_crimes.1
+		yugoslav_war_crimes.2
+		kosovo_events.1
+		kosovo_events.2
+	# Sudan
+		southsudan.1
+	# Japan
+		japan.1 
+	# Russia
+		rus_events.0
+		chechen_events.1
+	# Chechnya
+		chechen_events.3
+	# Haiti
+		haiti_events.1
+	# Rwanda
+	  rwandan_genocide.1
+	}
+	
+	##### RANDOM later
+	#random_events = {
+	#	chance_to_happen = 25
+		#10 = fund_lobbies_events.1
+		#10 = fund_lobbies_events.2
+		#10 = fund_lobbies_events.3
+		#10 = fund_lobbies_events.4
+		#10 = fund_lobbies_events.5
+	#}
+}
+
+on_half_yearly_pulse_country = {
+
+}
+
+on_yearly_pulse_country = {
+
+}
+
+on_diplomatic_play_started = {
+	
+}

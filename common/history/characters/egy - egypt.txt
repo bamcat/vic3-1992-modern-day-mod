@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:EGY ?= {
+	create_character = {
+			first_name = "hosni"
+			last_name = "mubarak"
+			historical = yes
+			ruler = yes
+			culture = cu:misri
+			birth_date = 1928.3.31
+			dna = dna_hosni_mubarak
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_conservative_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

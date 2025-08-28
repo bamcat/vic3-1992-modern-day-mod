@@ -1,0 +1,74 @@
+﻿namespace = chechen_events
+
+chechen_events.1 = {
+    type = country_event
+    placement = ROOT
+    title = chechen_events.1.t
+    desc = chechen_events.1.d
+    event_image = { video = "yugoslav_war" }
+
+	duration = 2
+	
+    trigger = {
+        c:RUS ?= this
+        game_date >= 1994.12.1
+        NOT = { has_variable = chechen_war_resolved }
+        NOT = { has_variable = chechen_war_started }
+    }
+
+    immediate = {
+        set_variable = chechen_war_started
+    }
+
+    option = {
+        name = chechen_events.1.a
+		c:CCH = {
+		create_diplomatic_play = {
+			name = first_chechen_war
+			type = dp_independence
+			target_country = c:RUS
+			war = yes
+			
+			add_war_goal = {
+				holder = c:RUS
+				type = annex_country
+				target_country = c:CCH
+			}
+		}
+	  }
+    }
+}
+
+chechen_events.3 = {
+    type = country_event
+    placement = ROOT
+    title = chechen_events.3.t
+    desc = chechen_events.3.d
+    event_image = { video = "africa_diplomats_negotiating" }
+
+    trigger = {
+		has_variable = chechen_war_started
+		game_date >= 1995.1.1
+        OR = {
+            c:RUS ?= this
+            c:CCH ?= this
+        }
+		NOT = {
+		 OR = {
+			has_war_with = c:RUS
+			has_war_with = c:CCH
+		  }
+		}
+        NOT = { has_variable = chechen_peace_offered }
+    }
+
+    immediate = {
+        set_variable = chechen_peace_offered
+    }
+
+    option = {
+        name = chechen_events.3.a
+        trigger = { c:RUS ?= this }
+        set_variable = chechen_war_resolved
+    }
+}

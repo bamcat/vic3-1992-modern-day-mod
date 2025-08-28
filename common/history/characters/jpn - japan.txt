@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:JPN ?= {
+	create_character = {
+			first_name = "kiichi"
+			last_name = "miyazawa"
+			historical = yes
+			ruler = yes
+			culture = cu:japanese
+			birth_date = 1919.3.31
+			dna = dna_kiichi_miyazawa
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_liberal_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

@@ -1,0 +1,110 @@
+﻿#fleet_entity_example = {
+#	# The asset to show
+#	entity = "generic_ship_cargo_01_entity"
+#
+#	# Trigger to check if the current entity is valid to show in the naval diorama
+#	# scope:combat_unit_type - combat unit type
+#	trigger = {
+#		scope:combat_unit_type = unit_type:combat_unit_type_frigate
+#	}
+#}
+
+########################################
+###           Light Ships       	 ###
+########################################
+
+military_navy_destroyer_generic_diorama_entity = {
+	entity = "military_navy_destroyer_generic_entity"
+	
+	trigger = {
+		OR = {
+		scope:combat_unit_type = unit_type:combat_unit_type_destroyer
+		scope:combat_unit_type = unit_type:combat_unit_type_stealth_destroyer
+		}
+	}
+}
+
+military_navy_torpedo_generic_diorama_entity = {
+	entity = "military_navy_torpedo_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_frigate
+	}
+}
+
+military_navy_monitor_generic_diorama_entity = {
+	entity = "military_navy_monitor_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_nuclear_submarine
+	}
+}
+
+military_navy_scoutcruiser_generic_diorama_entity = {
+	entity = "military_navy_scoutcruiser_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_cruiser
+	}
+}
+
+military_navy_ironclad_generic_diorama_entity = {
+	entity = "military_navy_ironclad_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_littoral_combat_ship
+	}
+}
+
+########################################
+###           Capital Ships       	 ###
+########################################
+
+
+military_navy_dreadnought_generic_diorama_entity = {
+	entity = "military_navy_dreadnought_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_battleship
+	}
+}
+
+
+military_navy_carrier_generic_diorama_entity = {
+	entity = "military_navy_carrier_generic_entity"
+	
+	trigger = {
+		OR = {
+		scope:combat_unit_type = unit_type:combat_unit_type_carrier
+		scope:combat_unit_type = unit_type:combat_unit_type_supercarrier
+		}
+	}
+}
+
+########################################
+###         Support Vessels      	 ###
+########################################
+
+military_navy_submarine_generic_diorama_entity = {
+	entity = "military_navy_submarine_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_attack_submarine
+	}
+}
+
+military_navy_battleship_generic_diorama_entity = {
+	entity = "military_navy_battleship_generic_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_helicopter_carrier
+	}
+}
+
+military_navy_awacs_generic_diorama_entity = {
+	entity = "generic_aerial_bleriotxi_01_entity"
+	
+	trigger = {
+		scope:combat_unit_type = unit_type:combat_unit_type_awacs
+	}
+}

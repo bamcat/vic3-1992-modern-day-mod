@@ -1,0 +1,70 @@
+﻿l_english:
+
+ # modifiers
+ nato_modifier:0 "NATO"
+ 
+ # je groups
+ 
+ je_group_foreign_policy:0 "Foreign Policy"
+ je_group_domestic_policy:0 "Domestic Policy"
+ je_group_space_exploration:0 "Space Exploration"
+ je_group_dilemmas:0 "Dilemmas"
+ je_group_advancements:0 "Advancements"
+ je_group_objectives:0 "Objectives"
+ 
+ # COVID-19 Pandemic
+ 
+ canada.1.t:0 "The Highway of Tears"
+ canada.1.d:0 "A stretch of British Columbia’s Highway 16, commonly referred to as the Highway of Tears, has become a symbol of tragedy and injustice in Canada, where dozens of Indigenous women and girls have gone missing or been murdered since the 1970s. Spanning between Prince George and Prince Rupert, the remote area has long lacked public transportation, forcing many to hitchhike—often with deadly consequences."
+ canada.1.f:0 "They (the authorities) put her in a steel box. It had to be a closed casket because of the way they found her ...” He pauses to hold back his tears, before stammering out the words, “she … was deteriorated."
+
+ canada.1.a:0 "Unfortunately, there's much more pressing issues facing this country."
+ canada.1.b:0 "We should be ashamed!"
+
+ je_covid_19:0 "COVID-19 Pandemic"
+ je_covid_19_reason:0 "The COVID-19 pandemic was a global health crisis caused by the novel coronavirus SARS-CoV-2. It began in late 2019 in Wuhan, China, and quickly spread worldwide, leading the World Health Organization (WHO) to declare a pandemic in March 2020. The virus primarily spread through respiratory droplets and caused symptoms ranging from mild illness to severe pneumonia and death. As the government, it falls within our reasonable duty to protect the populace from this deadly, fast-spreading pathogen."
+ 
+ covid.1.t:0 "The Virus From Wuhan, China"
+ covid.1.d:0 "A massive outbreak of an especially deadly strain of coronaviruses has broken out in Wuhan, China It threatens to spread rapidly, potentially escalating into a global pandemic."
+ covid.1.f:0 ""The epidemic of coronavirus, like a specter of death, was upon us almost overnight, and three days after the disease was made reportable by the Board of Health our hospital was full to overflowing with victims of the pestilence.""
+ covid.1.a:0 "We must hope it doesn't spread!"
+ 
+ covid.2.t:0 "COVID-19 Spreads"
+ covid.2.d:0 "The deadly new disease, COVID has appeared in [SCOPE.sState('plague_spread_target').GetName]. The pandemic is quickly becoming a global crisis."
+ covid.2.f:0 ""It was truly like unto the rush of the wounded from the field of battle, and the house was filled to capacity almost at once. Within a few days it was necessary to open a ward in the College gymnasium, which was equipped with beds from our students’ dormitory.""
+ covid.2.a:1 "When will the pandemic end?"
+ covid.3.t:0 "New Wave of COVID-19: The Omicron Variant"
+ covid.3.d:0 "The terrible outbreak continues in [SCOPE.sState('new_wave_state').GetName], with a new wave infecting many more of the population."
+ covid.3.f:0 ""About 12 o'clock I began to feel hot. I was so feverish I was afraid I would ignite my clothing. I had a cough that tore my very innards out when I could not suppress it. It was dark; I surely had pneumonia and I never was so forlorn and uncomfortable in my life.""
+ covid.3.a:0 "May the heavens let this end soon."
+ covid.4.t:0 "The Wuhan Coronavirus Flu"
+ covid.4.a:0 "Lets hope it doesn't reach [ROOT.GetCountry.GetName]!"
+ covid.5.t:0 "The nCOV-19 Pandemic: Government Response"
+ covid.5.d:0 "The government must determine its response to the pandemic that threatens to engulf the nation. Stricter measures will surely have a cost, but will save lives."
+ covid.5.f:0 ""BY AUTHORITY AND DIRECTION OF THE STATE BOARD OF HEALTH there will be NO CLASSES in the University beginning at NOON today. Students are FORBIDDEN to leave the town; to do so would help spread infection.""
+ covid.5.a:0 "Impose a strict lockdown and close non-essential businesses."
+ covid.5.b:0 "Mandate health measures such as social distancing and protective masks."
+ covid.5.c:0 "We can't risk harming the economy."
+
+ plague_modifier:0 "COVID-19: Mortality"
+ plague_lockdown_mod:0 "COVID-19: Economic Shutdown"
+ plague_measures_mod:0 "COVID-19: Economic Slowdown"
+ 
+ covid.7.t:0 "COVID-19 Creating Anti-War Sentiment"
+ covid.7.d:0 "Reports of the many deaths resulting from the nCOV-19 Pandemic in [SCOPE.sState('plague_state').GetName] are harming popular support for our war efforts."
+ covid.7.f:0 ""It is madness that we send men to war while this plague ravishes our homes. Should the state not prioritize the lives of its citizens over their deaths?""
+ covid.7.a:0 "We will not interfere with the free press."
+ covid.7.b:0 "Distribute reassuring propaganda backed by medical science."
+ covid.7.c:0 "Censor news of mortality rates and infections."
+ covid.8.t:0 "Pandemic Measures Contributing to Poverty"
+ covid.8.d:0 "With many unable to work due to our anti-pandemic measures, poorer citizens in [SCOPE.sState('plague_poverty_state').GetName] are struggling to pay rent. Newly unemployed laborers face eviction as landlords refuse their pleas for reprieve."
+ covid.8.f:0 ""They told me I could not work because the factory is overcrowded. Every factory is overcrowded! The landlord, may he burn in the eternal fires, cares not a jot for our plight and demands rent before the end of the week on pain of eviction. My family shall surely be forced from our home.""
+ covid.8.a:0 "Institute a rent freeze and eviction ban."
+ covid.8.b:0 "Fund Work-From-Home Initatives"
+ covid.8.c:0 "There is nothing we can do about this."
+ covid.9.t:0 "The Spread of Anti-Mask Propaganda"
+ covid.9.d:1 "[SCOPE.sCharacter('anti_mask_ig_leader').GetFullName] has begun to head the Anti-Mask Opposition to our pandemic measures. They dispute the effectiveness of our policies and demand that we revoke them for the sake of the struggling economy."
+ covid.9.f:0 ""Wear a mask and save your life! The emergency that now confronts our country is beyond the facilities of the Health Department.\nThose who do not wear them get sick. The man or woman or child who will not wear a mask now is a dangerous slacker!""
+ covid.9.a:0 "Ignore the League."
+ covid.9.b:0 "They have a point! Vaccines gave my son autism!"
+ covid.9.c:0 "Discredit the League with medical science."

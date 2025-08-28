@@ -1,0 +1,69 @@
+﻿leave_eu = {
+    icon = "gfx/interface/icons/decisions/decision_diplomacy.dds"
+    available = {
+        has_variable = eu_member_state
+    }
+    visible = {
+        has_variable = eu_member_state
+    }
+    ai_chance = {
+        base = 5
+        modifier = {
+            trigger = { legitimacy < 40 }
+            add = 10
+        }
+    }
+    possible = {
+        has_variable = eu_member_state
+        NOT = { is_at_war = yes }
+    }
+    when_taken = {
+        trigger_event = { id = eu_events.2 }
+    }
+    cooldown = { days = 3650 }
+}
+
+request_to_join_eu_decision = {
+	is_shown = {
+		NOT = { has_modifier = modifier_eu_member_state }
+		country_is_in_europe = yes
+		game_date >= 1995.1.1
+	}
+
+	possible = {
+		NOT = { has_variable = eu_membership_process_started }
+		NOT = { has_modifier = modifier_eu_member_state }
+		country_is_in_europe = yes
+		is_subject = no
+		OR = { 
+			OR = {
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_parliamentary_republic
+			}
+			AND = {
+				has_law = law_type:law_monarchy
+				has_law = law_type:law_elected_bureaucrats
+			}
+		}
+		OR = {
+			has_law = law_type:law_free_trade
+			has_law = law_type:law_right_of_assembly
+		}
+		has_law = law_type:law_elected_bureaucrats
+	}
+
+	when_taken = {
+		custom_tooltip = {
+		set_variable = eu_membership_process_started
+		text = eu_membership_process
+		}
+	}
+
+	ai_chance = {
+		value = 1.5
+		if = {
+			limit = { legitimacy > 60 }
+			add = 2
+		}
+	}
+}

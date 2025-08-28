@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:IDA ?= {
+	create_character = {
+			first_name = "narasimha"
+			last_name = "rao"
+			historical = yes
+			ruler = yes
+			culture = cu:bengali
+			birth_date = 1921.3.31
+			dna = dna_pv_narasimha
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_liberal_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

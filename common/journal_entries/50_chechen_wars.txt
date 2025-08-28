@@ -1,0 +1,45 @@
+je_first_chechen_war = {
+    icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
+    group = je_group_wars
+
+    is_shown_when_inactive = {
+        c:RUS ?= this
+        game_date >= 1994.12.1
+        NOT = { has_variable = chechen_war_resolved }
+    }
+
+    possible = {
+        c:RUS ?= this
+		game_date >= 1994.12.1
+        NOT = { has_variable = chechen_war_resolved }
+    }
+
+    complete = {
+		OR = {
+		custom_tooltip = {
+			text = chechen_war_resolved
+			NOT = { has_variable = chechen_war_resolved }
+		}
+		NOT = { exists = c:CCH }
+		}
+    }
+
+    on_complete = {
+        add_modifier = {
+            name = chechen_war_aftermath
+            days = 1095
+        }
+    }
+
+    on_monthly_pulse = {
+        if = {
+            limit = {
+                has_war_with = c:CCH
+            }
+            set_variable = chechen_war_active
+        }
+    }
+
+    weight = 200
+    should_be_pinned_by_default = yes
+}

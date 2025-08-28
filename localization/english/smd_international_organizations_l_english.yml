@@ -1,0 +1,151 @@
+﻿l_english:
+ # United Nations
+ je_united_nations: "United Nations"
+ je_united_nations_reason: "Current Resolution: [GetGlobalVariable('un_current_motion_name')] \n\nThe United Nations serves as an international body for diplomacy, peacekeeping, and humanitarian efforts.\n\nPermanent Security Council Members:\n- [GetGlobalVariable('permanent_members_1').GetCountry.GetName]\n- [GetGlobalVariable('permanent_members_2').GetCountry.GetName]\n- [GetGlobalVariable('permanent_members_3').GetCountry.GetName]\n- [GetGlobalVariable('permanent_members_4').GetCountry.GetName]\n- [GetGlobalVariable('permanent_members_5').GetCountry.GetName]\n\n\nThe United Nations serves as an international body for diplomacy, peacekeeping, and humanitarian efforts. Decisions by the UN — particularly the Security Council — can directly influence future events in your country."
+
+ sb_request_peacekeepers: "Request UN Peacekeepers"
+ sb_request_peacekeepers_desc: "Call upon the United Nations to deploy peacekeeping forces to assist in conflict resolution."
+
+ un_events.1.t: "Request UN Peacekeepers"
+ un_events.1.d: "We can appeal to the United Nations to send peacekeepers to help end our conflict."
+ un_events.1.a: "Submit the request."
+ un_events.1.b: "Do not involve the UN."
+
+ un_events.2.t: "UN Security Council Vote"
+ un_events.2.d: "The Security Council must vote on sending peacekeepers to [GetGlobalVariable('peacekeeper_requestor').GetCountry.GetName]"
+ un_events.2.a: "Yay"
+ un_events.2.b: "Abstain"
+ un_events.2.c: "Nay"
+ un_events.2.e: "Veto [GetGlobalVariable('peacekeeper_requestor').GetCountry.GetName]'s Request for Peacekeeping"
+
+ un_events.3.t: "Peacekeepers Approved"
+ un_events.3.d: "The UN Security Council has voted in favor of sending peacekeepers."
+ un_events.3.a: "Come on in!"
+
+ un_events.4.t: "Peacekeepers Rejected"
+ un_events.4.d: "The UN Security Council has voted against sending us peacekeepers."
+ un_events.4.a: "We're on our own."
+
+ un_events.10.t: "Rotating Security Council Member Elected"
+ un_events.10.d: "The United Nations General Assembly has elected a new rotating member to the Security Council: [un_rotating_member.GetName]."
+ un_events.10.a: "Noted."
+ 
+ unsc_member: "UNSC Member"
+ permanent_unsc_member: "Permanent UNSC Member"
+ un_peacekeepers_vetoed: "Peacekeepers Rejected"
+ un_peacekeepers_deployed: "United Nations' Peacekeeping"
+ un_already_voting_on_peacekeeping: "Please wait until the UN is finished voting on the current peacekeeping mission."
+ 
+ un_events.5.t: "Participate in [GetGlobalVariable('peacekeeper_requestor').GetCountry.GetName]'s Peacekeeping Mission?"
+ un_events.5.d: "The United Nation's Security Council has voted in favour of sending a peacekeeping mission to [GetGlobalVariable('peacekeeper_requestor').GetCountry.GetName]. Members of the general assembly have come together to discuss which countries are willing to send their men into the fray in the interests of global peace."
+ un_events.5.a: "Participate"
+ un_events.5.b: "Do not participate"
+ 
+ you_vote_yes: "You vote IN FAVOUR"
+ you_abstain: "You ABSTAIN your vote"
+ you_vote_no: "You vote AGAINST"
+ you_veto: "You VETO the process."
+ 
+ # Propose Motion
+ un_propose_motion_button: "Propose UN Resolution"
+ un_propose_motion_button_desc: "Resolutions have been disabled currently." # Propose a motion to the United Nations for a vote. Only one motion may be active at a time.
+
+ # Progress On Motion
+ un_motion_progress_bar: "UN Resolution Support"
+ un_motion_progress_bar_desc: "Tracks the support level for the current UN motion"
+ un_motion_progress_bar_second_desc: "Higher values indicate stronger support."
+
+ un_motion_progress_from_yes_votes: "Yes votes"
+
+ un_events.100.t: "Propose a United Nations Motion"
+ un_events.100.d: "Select which resolution you wish to bring before the Security Council."
+
+ un_events.100.a: "Propose Resolution on Environmental Protection"
+ un_events.100.b: "Propose Resolution on World Peace"
+ un_events.100.c: "Propose Resolution on Economic Development"
+ un_events.100.e: "Propose Resolution on UNESCO Technology"
+
+ un_events.101.t: "UN Security Council Vote"
+ un_events.101.d: "[GetGlobalVariable('un_current_motion_name')] is being voted on by the United Nations Security Council. Each member will cast their vote. Permanent members can veto a motion with a NO vote."
+
+ un_events.101.a: "Vote YES"
+ un_events.101.b: "Vote NO"
+
+ un_events.202_veto.t: "UN Resolution Vetoed"
+ un_events.202_veto.d: "The motion '[GetGlobalVariable('un_current_motion_name')]' was vetoed by [GetGlobalVariable('un_motion_veto').GetCountry.GetName]."
+
+ un_events.203_pass.t: "UN Resolution Approved"
+ un_events.203_pass.d: "The motion '[GetGlobalVariable('un_current_motion_name')]' has passed the Security Council vote."
+
+ un_events.204_fail.t: "UN Resolution Rejected"
+ un_events.204_fail.d: "The motion '[GetGlobalVariable('un_current_motion_name')]' failed to achieve a majority in the Security Council vote."
+ 
+ # Resolution Notification
+ 
+ un_passed: "Resolution Passed"
+ un_passed_desc: "The motion '[GetGlobalVariable('un_current_motion_name')]' has passed the United Nations Security Council vote"
+ 
+ un_fail: "Resolution Failed"
+ un_fail_desc: "The motion '[GetGlobalVariable('un_current_motion_name')]' failed to achieve a majority in the Security Council vote."
+
+ un_vetoed: "Resolution Vetoed"
+ un_vetoed_desc: "The motion '[GetGlobalVariable('un_current_motion_name')]' was vetoed by [GetGlobalVariable('un_motion_veto').GetCountry.GetName]."
+ 
+ # European Union
+ 
+ je_european_union: "European Union"
+ je_european_union_reason: "The European Union stands as one of the most ambitious political and economic projects of the modern age.\n\nBuilt upon the principles of economic integration, shared governance, and collective security, the EU provides its members with a common market, coordinated trade policy, and a seat at the table in shaping the continent's future. Membership brings the promise of free movement of goods, services, capital, and people — an unprecedented opportunity for prosperity.\n\nYet, the Union is not without its challenges. Members must navigate complex negotiations, abide by supranational regulations, and compromise on elements of national sovereignty. The deeper integration grows, the more each member's fate is bound to that of the collective.\n\nWhether a country thrives or struggles within the EU depends on its ability to balance national interests with the common good, forging a path within a union that aims to be more than the sum of its parts."
+
+ eu_events.1.t: "Invitation to the European Union"
+ eu_events.1.d: "The European Union has extended an invitation for our country to join as a full member."
+ eu_events.1.a: "We Accept the Offer"
+ eu_events.1.b: "We Must Decline"
+
+ eu_events.2.t: "Debate Over EU Membership"
+ eu_events.2.d: "Political factions are calling for a decision on whether to remain within the EU."
+ eu_events.2.a: "Leave the Union"
+ eu_events.2.b: "Remain in the Union"
+
+ modifier_eu_member_state: "EU Member State"
+ eu_membership_accept_tt: "You will become a member of the European Union, gaining economic and diplomatic benefits."
+ eu_member_state: "EU Member State"
+ is_eu_member_state: "EU Member State"
+ 
+ eu_call_summit_button: "Call an EU Summit"
+ eu_call_summit_button_desc: "Summon member states to discuss trade, sanctions, and cooperation."
+
+ eu_events.3.t: "European Union Summit"
+ eu_events.3.d: "Representatives from all EU member states gather to discuss common goals and challenges."
+ eu_events.3.a: "Deepen Trade Ties"
+ eu_events.3.b: "Coordinate Sanctions"
+ eu_events.3.c: "Promote Cultural Exchange"
+
+ eu_sanctions_ready: "Prepared for Sanctions"
+ 
+ leave_eu: "Exit the European Union"
+ leave_eu_desc: "Withdraw from the European Union, foregoing its economic benefits and political integration."
+ 
+ eu_member_state_is: "EU Member State"
+ eu_member_state_is_no_longer: "Is no longer an EU member state"
+ eu_deeper_trade_ties: "EU Deeper Trade Ties"
+ eu_deeper_trade_ties_desc: "Expanded economic integration within the European Union has boosted trade volumes and improved market access between member states."
+
+ eu_cultural_exchange: "EU Cultural Exchange"
+ eu_cultural_exchange_desc: "Membership in the European Union has fostered cultural understanding, migration, and the spread of new ideas and technologies."
+ je_eu_membership_request: "Application for EU Membership"
+ je_eu_membership_request_reason: "Your government has submitted a formal application to join the European Union.\n\nThis process involves lengthy negotiations, policy reforms, and alignment with EU laws and standards. Over the coming years, your country will be evaluated on its economic stability, governance, human rights, and adherence to democratic principles.\n\nSuccessful accession would grant you:\n- Access to the EU single market\n- Free movement of goods, services, capital, and people with other member states\n- Participation in EU decision-making bodies\n\nHowever, the process is politically sensitive and may encounter resistance both domestically and from existing EU members."
+ eu_membership_process: "Begins the EU Membership Process"
+ request_to_join_eu_decision: "Request to Join the EU"
+ request_to_join_eu_decision_desc: "Formally apply to join the European Union."
+ 
+ eu_events.0.t: "Ascension into the European Union"
+ eu_events.0.d: "We have been formally accepted into the European Union"
+ 
+ # NATO
+ 
+ allow_leave_nato: "Allows you to leave nato within the coming months"
+ left_nato: "Leaving NATO"
+ leave_nato: "Leave NATO"
+ leave_nato_desc: "Rescind our membership of NATO, allowing the military to act as an independent force, free from American influence."
+
+ 

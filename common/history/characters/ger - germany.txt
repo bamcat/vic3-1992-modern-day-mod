@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:GER ?= {
+	create_character = {
+			first_name = "helmut"
+			last_name = "kohl"
+			historical = yes
+			ruler = yes
+			culture = cu:south_german
+			birth_date = 1930.3.31
+			dna = dna_helmut_kohl
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_conservative_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

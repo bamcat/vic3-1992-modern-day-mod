@@ -1,0 +1,37 @@
+﻿economic_union = {
+	groups= {
+		general
+	}
+	show_in_lens = no
+
+	potential = {  # Only created through diplomatic demands
+		always = no
+	}
+
+	pact = {
+		cost = 10
+		has_junior_participant = yes
+		maintenance_paid_by = first_country
+
+		relations_progress_per_day = 1
+		relations_improvement_max = 50
+
+		subject_type = subject_type_economic_union
+
+		target_can_break = { # Has to use decision to break
+			always = no
+		}
+
+		manual_break_effect = {
+		}
+
+		auto_break_effect = {
+		}
+	}
+
+	ai = {
+		will_break = {
+			always = no
+		}
+	}
+}

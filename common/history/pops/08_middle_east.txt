@@ -1,0 +1,1185 @@
+﻿POPS = {
+	s:STATE_NEJD = {
+		region_state:SAU = {
+			create_pop = {
+				culture = bedouin
+				size = 1795353
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 45363
+			}
+			create_pop = {
+				culture = sudanese
+				size = 24945
+			}
+		}
+	}
+	s:STATE_OMAN = {
+		region_state:XOM = {
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 435123
+			}
+			create_pop = {
+				culture = swahili
+				size = 336045
+			}
+			create_pop = {
+				culture = baluchi
+				size = 63606
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 137403
+			}
+			create_pop = {
+				culture = persian
+				religion = shiite
+				size = 4623
+			}
+		}
+	}
+	s:STATE_ABU_DHABI = {
+		region_state:QAT = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 943563
+			}
+			create_pop = {
+				culture = sudanese
+				size = 60342
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 295353
+			}
+			create_pop = {
+				culture = persian
+				religion = shiite
+				size = 46230
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 1455
+			}
+		}
+		region_state:BHR = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 330435
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 120372
+			}
+			create_pop = {
+				culture = persian
+				religion = sunni
+				size = 46230
+			}
+		}
+		region_state:UAE = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 1462536
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 486042
+			}
+			create_pop = {
+				culture = baluchi
+				religion = sunni
+				size = 130953
+			}
+			create_pop = {
+				culture = sindi
+				religion = sunni
+				size = 37962
+			}
+			create_pop = {
+				culture = persian
+				religion = sunni
+				size = 118644
+			}
+			create_pop = {
+				culture = marathi
+				religion = hindu
+				size = 37959
+			}
+			create_pop = {
+				culture = kannada
+				religion = hindu
+				size = 20463
+			}
+		}
+		region_state:XOM = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 8253
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 1539
+			}
+			create_pop = {
+				culture = persian
+				religion = sunni
+				size = 450
+			}
+		}
+	}
+	s:STATE_YEMEN = {
+		region_state:STC = {
+			create_pop = {
+				culture = yemenite
+				religion = sunni
+				size = 595353
+			}
+			create_pop = {
+				culture = yemenite
+				religion = shiite
+				size = 153642
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 175443
+			}
+		}
+		region_state:YMN = {
+			create_pop = {
+				culture = yemenite
+				religion = sunni
+				size = 41352
+			}
+			create_pop = {
+				culture = yemenite
+				religion = shiite
+				size = 24363
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 66522
+			}
+		}
+		region_state:HOU = {
+			create_pop = {
+				culture = yemenite
+				religion = shiite
+				size = 4452642
+			}
+			create_pop = {
+				culture = yemenite
+				religion = sunni
+				size = 1784523
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 852456
+			}
+		}
+	}
+	s:STATE_HEDJAZ = {
+		region_state:SAU = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 2683536
+			}
+			create_pop = {
+				culture = sudanese
+				size = 445353
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 252765
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 645042
+			}
+			create_pop = {
+				culture = yemenite
+				religion = sunni
+				size = 253536
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 252753
+			}
+		}
+		region_state:JOR = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 23535
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 23535
+			}
+		}
+	}
+	s:STATE_HAIL = {
+		region_state:SAU = {
+			create_pop = {
+				culture = bedouin
+				size = 1752639
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 1055535
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 49563
+			}
+			create_pop = {
+				culture = sudanese
+				size = 105396
+			}
+		}
+		region_state:JOR = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 5934
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 4935
+			}
+		}
+	}
+	s:STATE_CYPRUS = {
+		region_state:NCY = {
+			create_pop = {
+				culture = turkish
+				size = 69603
+			}
+			create_pop = {
+				culture = cypriot
+				size = 55263
+			}
+			create_pop = {
+				culture = greek
+				religion = catholic
+				size = 14433
+			}
+		}
+		region_state:ADK = {
+			create_pop = {
+				culture = turkish
+				size = 9642
+			}
+			create_pop = {
+				culture = cypriot
+				size = 25263
+			}
+			create_pop = {
+				culture = greek
+				size = 8523
+			}
+		}
+		region_state:CYP = {
+			create_pop = {
+				culture = turkish
+				size = 46506
+			}
+			create_pop = {
+				culture = cypriot
+				size = 166206
+			}
+			create_pop = {
+				culture = greek
+				size = 9762
+			}
+		}
+	}
+	s:STATE_TRANSJORDAN = {
+		region_state:JOR = {
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 1266945
+			}
+			create_pop = {
+				culture = bedouin
+				religion = orthodox
+				size = 56526
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 252453
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = orthodox
+				size = 6036
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 135375
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 97680
+			}
+			create_pop = {
+				culture = lacustrine_bantu
+				size = 168552
+			}
+		}
+	}
+	s:STATE_PALESTINE = {
+		region_state:PAL = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 966042
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 240042
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = orthodox
+				size = 6945
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 252639
+			}
+			create_pop = {
+				culture = sephardic
+				religion = jewish
+				size = 46842
+			}
+			create_pop = {
+				culture = israelite
+				religion = jewish
+				size = 10236
+			}
+			create_pop = {
+				culture = armenian
+				size = 13455
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 2994
+			}
+		}
+		region_state:ISR = {
+			create_pop = {
+				culture = israelite
+				size = 2292042
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 120372
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 9036
+			}
+			create_pop = {
+				culture = armenian
+				size = 366
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 20445
+			}
+		}
+	}
+	s:STATE_LEBANON = {
+		region_state:LBN = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 1393503
+			}
+			create_pop = {
+				culture = sephardic
+				size = 97503
+			}
+			create_pop = {
+				culture = israelite
+				size = 9372
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 376263
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = orthodox
+				size = 25356
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 268353
+			}
+			create_pop = {
+				culture = armenian
+				size = 69303
+			}
+			create_pop = {
+				culture = greek
+				religion = orthodox
+				size = 107445
+			}
+		}
+	}
+	s:STATE_SYRIA = {
+		region_state:SYR = {
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 7500
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 9600
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 93600
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = orthodox
+				size = 44400
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 24600
+			}
+			create_pop = {
+				culture = sephardic
+				size = 24000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = north_caucasian
+				size = 9000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lacustrine_bantu
+				size = 12000
+			}
+		}
+		region_state:ISR = {
+			create_pop = {
+				culture = israelite
+				size = 16536
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 9366
+			}
+		}
+	}
+	s:STATE_ALEPPO = {
+		region_state:TRK = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 186303
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 25263
+			}
+			create_pop = {
+				culture = kurdish
+				religion = sunni
+				size = 96042
+			}
+			create_pop = {
+				culture = turkish
+				religion = sunni
+				size = 235542
+			}
+		}
+		region_state:SIG = {
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 60363
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 135363
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 175482
+			}
+			create_pop = {
+				culture = kurdish
+				religion = sunni
+				size = 25482
+			}
+			create_pop = {
+				culture = turkish
+				religion = sunni
+				size = 145353
+			}
+		}
+		region_state:SYR = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 1935636
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = shiite
+				size = 102630
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = orthodox
+				size = 25353
+			}
+			create_pop = {
+				culture = kurdish
+				religion = sunni
+				size = 396903
+			}
+			create_pop = {
+				culture = armenian
+				size = 45636
+			}
+			create_pop = {
+				culture = turkish
+				religion = sunni
+				size = 146922
+			}
+			create_pop = {
+				culture = sephardic
+				size = 36441
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 295245
+			}
+		}
+	}
+	s:STATE_BAGHDAD = {
+		region_state:IRQ = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 3733452
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = orthodox
+				size = 253536
+			}
+			create_pop = {
+				culture = mashriqi
+				size = 235455
+			}
+			create_pop = {
+				culture = bedouin
+				size = 675363
+			}
+			create_pop = {
+				culture = turkish
+				size = 553536
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 56382
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2442
+			}
+		}
+	}
+	s:STATE_MOSUL = {
+		region_state:IRQ = {
+			create_pop = {
+				culture = kurdish
+				size = 594435
+			}
+			create_pop = {
+				culture = assyrian
+				religion = oriental_orthodox
+				size = 94353
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 658785
+			}
+			create_pop = {
+				culture = turkish
+				size = 184353
+			}
+			create_pop = {
+				culture = bedouin
+				size = 135345
+			}
+		}
+		region_state:KDS = {
+			create_pop = {
+				culture = kurdish
+				size = 943536
+			}
+			create_pop = {
+				culture = assyrian
+				religion = oriental_orthodox
+				size = 25263
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 426303
+			}
+			create_pop = {
+				culture = bedouin
+				size = 4350
+			}
+			create_pop = {
+				culture = turkish
+				size = 25275
+			}
+		}
+	}
+	s:STATE_DEIR_EZ_ZOR = {
+		region_state:SYR = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 168330
+			}
+			create_pop = {
+				culture = kurdish
+				size = 20430
+			}
+			create_pop = {
+				culture = bedouin
+				size = 55467
+			}
+		}
+		region_state:SIG = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 24351
+			}
+			create_pop = {
+				culture = kurdish
+				religion = sunni
+				size = 16263
+			}
+			create_pop = {
+				culture = bedouin
+				size = 23523
+			}
+		}
+		region_state:ROJ = {
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 133545
+			}
+			create_pop = {
+				culture = assyrian
+				religion = oriental_orthodox
+				size = 93603
+			}
+			create_pop = {
+				culture = kurdish
+				religion = sunni
+				size = 442443
+			}
+			create_pop = {
+				culture = bedouin
+				religion = sunni
+				size = 314145
+			}
+		}
+	}
+	s:STATE_BASRA = {
+		region_state:IRQ = {
+			create_pop = {
+				culture = mashriqi
+				size = 1323690
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 360642
+			}
+			create_pop = {
+				culture = bedouin
+				size = 268542
+			}
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 43740
+			}
+		}
+		region_state:KUW = {
+			create_pop = {
+				culture = mashriqi
+				size = 775245
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 169236
+			}
+		}
+	}
+	s:STATE_FARS = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 1563603
+			}
+			create_pop = {
+				culture = persian
+				religion = sunni
+				size = 80535
+			}
+			create_pop = {
+				culture = sephardic
+				size = 3603
+			}
+			create_pop = {
+				culture = baluchi
+				size = 90435
+			}
+		}
+	}
+	s:STATE_LARISTAN = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 1185360
+			}
+			create_pop = {
+				culture = bedouin
+				size = 445434
+			}
+		}
+	}
+	s:STATE_SISTAN = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 709353
+			}
+			create_pop = {
+				culture = baluchi
+				size = 136836
+			}
+		}
+	}
+	s:STATE_KHORASAN = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 2336535
+			}
+			create_pop = {
+				culture = turkmen
+				size = 336552
+			}
+		}
+	}
+	s:STATE_KHUZESTAN = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 1018455
+			}
+			create_pop = {
+				culture = sephardic
+				size = 96303
+			}
+			create_pop = {
+				culture = mashriqi
+				size = 253563
+			}
+		}
+	}
+	s:STATE_ISFAHAN = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 1855635
+			}
+			create_pop = {
+				culture = armenian
+				size = 385353
+			}
+		}
+	}
+	s:STATE_MAZANDARAN = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 2385303
+			}
+			create_pop = {
+				culture = turkmen
+				size = 476823
+			}
+			create_pop = {
+				culture = azerbaijani
+				size = 193752
+			}
+		}
+	}
+	s:STATE_IRAKAJEMI = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 3647697
+			}
+			create_pop = {
+				culture = sephardic
+				size = 268854
+			}
+			create_pop = {
+				culture = armenian
+				size = 1062456
+			}
+		}
+	}
+	s:STATE_TABRIZ = {
+		region_state:IRA = {
+			create_pop = {
+				culture = azerbaijani
+				size = 1007460
+			}
+			create_pop = {
+				culture = sephardic
+				size = 253530
+			}
+			create_pop = {
+				culture = azerbaijani
+				religion = sunni
+				size = 364365
+			}
+			create_pop = {
+				culture = persian
+				size = 755544
+			}
+			create_pop = {
+				culture = kurdish
+				religion = shiite
+				size = 226236
+			}
+			create_pop = {
+				culture = kurdish
+				size = 265353
+			}
+			create_pop = {
+				culture = armenian
+				size = 55542
+			}
+			create_pop = {
+				culture = assyrian
+				size = 64245
+			}
+		}
+	}
+	s:STATE_LURISTAN = {
+		region_state:IRA = {
+			create_pop = {
+				culture = persian
+				size = 1936851
+			}
+			create_pop = {
+				culture = armenian
+				size = 256212
+			}
+			create_pop = {
+				culture = kurdish
+				size = 254574
+			}
+			create_pop = {
+				culture = kurdish
+				religion = shiite
+				size = 149562
+			}
+			create_pop = {
+				culture = sephardic
+				size = 22455
+			}
+			create_pop = {
+				culture = armenian
+				size = 29577
+			}
+		}
+	}
+	s:STATE_HUDAVENDIGAR = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 2969442
+			}
+			create_pop = {
+				culture = sephardic
+				size = 6903
+			}
+			create_pop = {
+				culture = armenian
+				size = 2535
+			}
+			create_pop = {
+				culture = greek
+				size = 43752
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 268533
+			}
+		}
+	}
+	s:STATE_AYDIN = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 1189503
+			}
+			create_pop = {
+				culture = armenian
+				size = 2208
+			}
+			create_pop = {
+				culture = greek
+				size = 886230
+			}
+			create_pop = {
+				culture = sephardic
+				size = 108960
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 3603
+			}
+			create_pop = { # "Latins"
+				culture = north_italian
+				size = 1455
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 102453
+			}
+		}
+	}
+	s:STATE_KONYA = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 2523633
+			}
+			create_pop = {
+				culture = kurdish
+				size = 253503
+			}
+			create_pop = {
+				culture = greek
+				size = 6042
+			}
+		}
+	}
+	s:STATE_KASTAMONU = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 535245
+			}
+			create_pop = {
+				culture = greek
+				size = 118755
+			}
+		}
+	}
+	s:STATE_DIYARBAKIR = {
+		region_state:TRK = {
+			create_pop = {
+				culture = kurdish
+				size = 1536903
+			}
+			create_pop = {
+				culture = assyrian
+				religion = oriental_orthodox
+				size = 135630
+			}
+			create_pop = {
+				culture = turkish
+				size = 885612
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 146823
+			}
+			create_pop = {
+				culture = armenian
+				size = 4542
+			}
+		}
+	}
+	s:STATE_ADANA = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 1945554
+			}
+			create_pop = {
+				culture = kurdish
+				size = 135036
+			}
+			create_pop = {
+				culture = armenian
+				size = 6036
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 63612
+			}
+		}
+	}
+	s:STATE_TRABZON = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 696312
+			}
+			create_pop = {
+				culture = greek
+				size = 296553
+			}
+			create_pop = {
+				culture = georgian
+				religion = sunni
+				size = 36903
+			}
+		}
+	}
+	s:STATE_ERZURUM = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 453660
+			}
+			create_pop = {
+				culture = kurdish
+				size = 505542
+			}
+		}
+	}
+	s:STATE_KARS = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 155652
+			}
+			create_pop = {
+				culture = georgian
+				religion = sunni
+				size = 33972
+
+			}
+			create_pop = {
+				culture = georgian
+				size = 18930
+			}
+			create_pop = {
+				culture = kurdish
+				size = 9690
+			}
+		}
+		region_state:GEO = {
+			create_pop = {
+				culture = turkish
+				size = 4545
+			}
+			create_pop = {
+				culture = kurdish
+				size = 19503
+			}
+			create_pop = {
+				culture = georgian
+				size = 89451
+			}
+		}
+	}
+	s:STATE_ANKARA = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 2355432
+			}
+			create_pop = {
+				culture = kurdish
+				size = 572421
+			}
+			create_pop = {
+				culture = greek
+				size = 26748
+			}
+			create_pop = {
+				culture = sephardic
+				size = 3603
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 195255
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+je_european_union = {
+    icon = "gfx/interface/icons/event_icons/event_european_union.dds"
+    group = je_group_foreign_policy
+
+    is_shown_when_inactive = {
+		always = yes
+	}
+
+    possible = {
+		custom_tooltip = {
+			text = eu_member_state_is
+			has_variable = eu_member_state
+		}
+    }
+
+    invalid = {
+        NOT = { country_is_in_europe = yes }
+    }
+	
+	fail = {
+		custom_tooltip = {
+			text = eu_member_state_is_no_longer
+			NOT = { has_variable = eu_member_state }
+		}
+	}
+
+    weight = 100
+    should_be_pinned_by_default = yes
+
+    scripted_button = eu_call_summit_button
+}
+
+je_eu_membership_request = {
+	icon = "gfx/interface/icons/event_icons/event_european_union.dds"
+	should_be_pinned_by_default = yes
+	group = je_group_foreign_policy
+	
+	is_shown_when_inactive = {
+		NOT = { has_modifier = modifier_eu_member_state }
+		has_variable = eu_membership_process_started
+	}
+	
+	possible = {
+		NOT = { has_modifier = modifier_eu_member_state }
+		has_variable = eu_membership_process_started
+	}
+
+	complete = {
+		has_law = law_type:law_free_trade
+		has_law = law_type:law_right_of_assembly
+		has_law = law_type:law_multicultural
+	}
+
+	on_complete = {
+		trigger_event = { id = eu_events.99 }
+	}
+
+	possible = {
+		NOT = { has_modifier = modifier_eu_member_state }
+		has_variable = eu_membership_process_started
+	}
+	should_be_pinned_by_default = yes
+}

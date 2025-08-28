@@ -1,0 +1,229 @@
+﻿# Collapse of Yugoslavia
+
+namespace = yugoslavia
+# set_variable = yugoslavia_has_collapsed
+
+# Begins
+yugoslavia.1 = {
+	type = country_event
+	title = yugoslavia.1.t
+	desc = yugoslavia.1.d
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	placement = ROOT
+	event_image = { video = "europenorthamerica_before_the_battle" }
+	duration = 2
+	
+	trigger = {
+		has_journal_entry = je_collapse_of_yugoslavia
+	}
+
+	immediate = {
+		save_scope_as = yugoslavia_root
+	}
+
+	option = {
+		name = yugoslavia.1.a
+		custom_tooltip = begin_disintegration_tt
+		trigger_event = { id = yugoslavia.2 days = 5 }
+		trigger_event = { id = yugoslavia.3 days = 10 }
+	}
+}
+
+yugoslavia.2 = {
+	type = country_event
+	title = yugoslavia.2.t
+	desc = yugoslavia.2.d
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	placement = ROOT
+	event_image = { video = "yugoslav_war" }
+	duration = 2
+	
+	trigger = {
+		c:SRB ?= this
+	}
+
+	option = {
+		name = yugoslavia.2.a
+		custom_tooltip = croatia_breaks_tt
+		s:STATE_BOSNIA = {
+			add_claim = c:SRB
+		}
+		s:STATE_SLAVONIA = {
+			add_claim = c:SRB
+		}
+		s:STATE_VLASENICA = {
+			add_claim = c:SRB
+		}
+		s:STATE_LIVNO = {
+			add_claim = c:SRB
+		}
+		s:STATE_BANJA_LUKA = {
+			add_claim = c:SRB
+		}
+	c:HRV = {
+		create_diplomatic_play = {
+			name = croatian_war_of_independence
+			type = dp_secession
+			target_country = c:SRB
+			war = yes
+			
+			add_war_goal = {
+				holder = c:SRB
+				type = annex_country
+				target_country = c:HRV
+			}
+		}
+	}
+		set_variable = yugoslavia_has_collapsed
+		trigger_event = { id = yugoslavia.4 days = 10 }
+	}
+}
+
+# Bosnia Declares Independence
+yugoslavia.3 = {
+	type = country_event
+	title = yugoslavia.3.t
+	desc = yugoslavia.3.d
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	placement = ROOT
+	event_image = { video = "yugoslav_war" }
+	duration = 2
+	
+	option = {
+		name = yugoslavia.3.a
+		custom_tooltip = bosnia_slovenia_breaks_tt
+		create_country = {
+                        tag = SRP
+                        origin = this # TODO, ADD DEMOCRACY
+                        province = p:xD0A0A0
+						
+                        on_created = {
+								s:STATE_VLASENICA = {
+								set_owner_of_provinces = {
+                                                country = c:SRP
+                                                provinces = { xD0A0A0 x3F67BA x1121E0 }
+                                        }
+								}
+                                s:STATE_BANJA_LUKA = {
+									set_owner_of_provinces = {
+										country = c:SRP
+										provinces = { xA40356 x7C904A x50209F x3B7D2B }
+									}
+                                }
+                        }
+                }
+		create_country = {
+                        tag = PCK
+                        origin = this
+                        province = p:xDA817B
+						on_created = {
+					s:STATE_SLAVONIA = {
+						set_owner_of_provinces = {
+                                                country = c:PCK
+                                                provinces = { x902161 x1A4DF9}
+                                    }
+							}
+                }
+		}
+		create_country = {
+                        tag = BOS
+                        origin = this
+						province = p:x19AF6A
+					on_created = {
+                        s:STATE_BOSNIA = { 
+						set_owner_of_provinces = {
+                                                country = c:BOS
+                                                provinces = { x23D67C x51A0A0 x5F13FD x9021E0 xDA817B }
+                                    }
+						}
+						s:STATE_LIVNO = { 
+						set_owner_of_provinces = {
+                                                country = c:BOS
+                                                provinces = { x1E7362 xF06101 xD021A0 xAC2DD3 }
+                                    }
+						}
+                }
+			}
+	}
+}
+
+# International response
+yugoslavia.4 = {
+	type = country_event
+	title = yugoslavia.4.t
+	desc = yugoslavia.4.d
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	placement = ROOT
+	event_image = { video = "unspecific_politicians_arguing" }
+
+	trigger = {
+		has_variable = yugoslavia_has_collapsed
+	}
+
+	option = {
+		name = yugoslavia.4.a
+		custom_tooltip = peacekeeping_mission_tt
+		c:SRP = {
+			trigger_event = { id = srpska.1 days = 1 }
+		}
+	}
+
+	option = {
+		name = yugoslavia.4.b
+		custom_tooltip = intervention_declined_tt
+		add_radicals = {
+			value = 0.03
+			culture = culture:south_slavic
+		}
+		c:SRP = {
+			trigger_event = { id = srpska.1 days = 1 }
+		}
+	}
+}
+
+# Serbia asks for reunification
+yugoslavia.5 = {
+	type = country_event
+	title = yugoslavia.5.t
+	desc = yugoslavia.5.d
+	icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+	event_image = { video = "middleeast_battlefield_trenches" }
+	placement = ROOT
+
+	trigger = {
+		OR = { tag = HRV tag = BOS tag = SLV tag = MKD tag = MNE }
+		NOT = { SRB = { has_variable = yugoslavia_reunified  } }
+		NOT = { has_variable = already_asked_serb_reunification }
+	}
+
+	option = {
+		name = yugoslavia.5.a
+		custom_tooltip = accepts_reunion_tt
+		c:SRB = {
+		annex = ROOT
+		}
+		set_variable = already_asked_serb_reunification
+	}
+
+	option = {
+		name = yugoslavia.5.b
+		default_option = yes
+		custom_tooltip = rejects_reunion_tt
+		set_variable = already_asked_serb_reunification
+		add_modifier = {
+			name = anti_serbian_sentiment
+			days = 730
+		}
+		c:SRB = {
+			add_radicals = {
+				value = 0.02
+				culture = culture:south_slavic
+			}
+		}
+	}
+}
+
+
+
+
+

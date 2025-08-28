@@ -1,0 +1,155 @@
+﻿namespace = eu_events
+
+
+# Formalization to the EU
+eu_events.99 = {
+    type = country_event
+    placement = ROOT
+    title = eu_events.0.t
+    desc = eu_events.0.d
+    icon = "gfx/interface/icons/event_icons/event_european_union.dds"
+    event_image = { video = "asia_farmers_market" }
+	duration = 3
+	
+    trigger = {
+        NOT = { has_variable = eu_member_state }
+		has_variable = eu_membership_process_started
+    }
+
+	immediate = { remove_variable = eu_membership_process_started }
+	
+    option = {
+        name = eu_events.1.a # Accept Membership
+        default_option = yes
+        set_variable = eu_member_state
+        add_modifier = {
+            name = modifier_eu_member_state
+            days = -1
+        }
+        add_loyalists = {
+            pop_type = shopkeepers
+            value = 0.05
+        }
+        custom_tooltip = eu_membership_accept_tt
+    }
+
+    option = {
+        name = eu_events.1.b # Decline
+        add_radicals = {
+            pop_type = capitalists
+            value = 0.15
+        }
+    }
+}
+
+# Invitation to join the EU
+eu_events.1 = {
+    type = country_event
+    placement = ROOT
+    title = eu_events.1.t
+    desc = eu_events.1.d
+    icon = "gfx/interface/icons/event_icons/event_european_union.dds"
+    event_image = { video = "asia_farmers_market" }
+	duration = 3
+	immediate = { set_variable = already_got_invitation_to_eu }
+	
+    trigger = {
+        OR = {
+			c:FRA ?= this
+			c:XBE ?= this
+			c:GBR ?= this
+			c:GER ?= this
+			c:SPA ?= this
+			c:XPO ?= this
+			c:NDL ?= this
+			c:IRE ?= this
+			c:ITA ?= this
+			c:XLU ?= this
+			c:XDE ?= this
+			c:GRK ?= this
+		}
+        is_revolutionary = no
+        NOT = { has_variable = eu_member_state }
+		NOT = { has_variable = already_got_invitation_to_eu }
+		game_date >= 1993.11.1
+    }
+
+    option = {
+        name = eu_events.1.a # Accept Membership
+        default_option = yes
+        set_variable = eu_member_state
+        add_modifier = {
+            name = modifier_eu_member_state
+            days = -1
+        }
+        add_loyalists = {
+            pop_type = shopkeepers
+            value = 0.05
+        }
+        custom_tooltip = eu_membership_accept_tt
+    }
+
+    option = {
+        name = eu_events.1.b # Decline
+        add_radicals = {
+            pop_type = capitalists
+            value = 0.15
+        }
+    }
+}
+
+# Potential penalties for leaving
+eu_events.2 = {
+    type = country_event
+    placement = ROOT
+    title = eu_events.2.t
+    desc = eu_events.2.d
+    icon = "gfx/interface/icons/event_icons/event_unrest.dds"
+    event_image = { video = "africa_diplomats_negotiating" }
+	duration = 2
+    option = {
+        name = eu_events.2.a # Leave the EU
+        remove_variable = eu_member_state
+        remove_modifier = modifier_eu_member_state
+        add_radicals = {
+            pop_type = academics
+            value = 0.04
+        }
+    }
+
+    option = {
+        name = eu_events.2.b # Remain
+        add_loyalists = {
+            pop_type = bureaucrats
+            value = 0.03
+        }
+    }
+}
+
+# EU Summit
+eu_events.3 = {
+    type = country_event
+    placement = ROOT
+    title = eu_events.3.t
+    desc = eu_events.3.d
+    icon = "gfx/interface/icons/event_icons/event_diplomacy.dds"
+    event_image = { video = "africa_diplomats_negotiating" }
+	duration = 2
+    option = {
+        name = eu_events.3.a # Deepen Trade Ties
+        trade_routes_cost = -0.05
+        add_loyalists = { pop_type = shopkeepers value = 0.02 }
+		add_modifier = { name = eu_deeper_trade_ties days = 730 }
+    }
+    option = {
+        name = eu_events.3.b # Coordinate Sanctions
+        add_modifier = { name = eu_sanctions_ready days = 730 }
+    }
+
+    option = {
+        name = eu_events.3.c # Promote Cultural Exchange
+        add_loyalists = { pop_type = academics value = 0.03 }
+        technology_spread_rate = 0.02
+		add_modifier = { name = eu_cultural_exchange days = 730 }
+    }
+}

@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:PRC ?= {
+	create_character = {
+			first_name = "yang"
+			last_name = "shangkun"
+			historical = yes
+			ruler = yes
+			culture = cu:han
+			birth_date = 1907.3.31
+			dna = dna_yang_shangkun
+			ig_leader = yes
+			interest_group = ig_rural_folk
+			ideology = ideology_nationalist_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

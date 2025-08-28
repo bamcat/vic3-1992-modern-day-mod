@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:ISR ?= {
+	create_character = {
+			first_name = "yitzhak"
+			last_name = "rabin"
+			historical = yes
+			ruler = yes
+			culture = cu:ashkenazi
+			birth_date = 1922.3.31
+			dna = dna_yitzhak_rabin
+			ig_leader = yes
+			interest_group = ig_petty_bourgeoisie
+			ideology = ideology_progressive_leader
+			traits = {
+				experienced_political_operator
+			}
+		}
+	}
+}

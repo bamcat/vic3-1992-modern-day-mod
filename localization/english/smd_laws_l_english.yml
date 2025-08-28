@@ -1,0 +1,155 @@
+﻿l_english:
+ law_jihad:0 "Jihadism"
+ law_jihad_desc:0 "Jihadist militaries have a distinctly religious aim in their practices, training, and organization."
+ law_mixed_healthcare:0 "Mixed Health System"
+ law_mixed_healthcare_desc:0 "The population's health is managed by both private & government health insurance plans. Government plans are offered to our lower-income citizens to solve the market failures of private health insurance."
+ law_affirmative_action:0 "Affirmative Action"
+ law_affirmative_action_desc:0 "Various protections for minorities have been made mandatory. This includes quotes & various systems to encourage their involvement in our current system, legal protections, and monetary funding."
+ 
+ lawgroup_firearms:0 "Firearm Ownership"
+ lawgroup_firearms_desc:0 "Matters concerning the right to bear arms."
+ 
+ lawgroup_abortions:0 "Abortions"
+ lawgroup_abortions_desc:0 "Whether or not our citizens are allowed to have abortions."
+ 
+ lawgroup_unions:0 "Unions"
+ lawgroup_unions_desc:0 "Matters concerning our workers' ability to form unions."
+ 
+ lawgroup_homosexuality:0 "Homosexuality"
+ lawgroup_homosexuality_desc:0 "Matters concerning the LGBTQ+ movement in our country."
+ 
+ law_canton_system:0 "Isolationism"
+ 
+ law_unrestricted_firearms:0 "Unrestricted Firearms"
+ law_unrestricted_firearms_desc:0 "Our country is home to a large firearms industry, ripe for civilian use."
+ 
+ law_licensed_firearms:0 "Licensed Firearms"
+ law_licensed_firearms_desc:0 "Citizens require a license to own a gun in our country."
+ 
+ law_banned_firearms:0 "Banned Firearms"
+ law_banned_firearms_desc:0 "Civilian use of firearms is strictly prohibited."
+ 
+ law_banned_unions:0 "Banned Unions"
+ law_banned_unions_desc:0 "Workers are not allowed to unionize with the intention of gaining workplace benefits."
+ 
+ law_restricted_unions:0 "Restricted Unions"
+ law_restricted_unions_desc:0 "Workers are allowed to form unions, with some restrictions intended to protect our investors."
+ 
+ law_unrestricted_unions:0 "Unrestricted Unions"
+ law_unrestricted_unions_desc:0 "Workers are fully encouraged to unionize and seek full benefits for their labour."
+ 
+ law_banned_abortions:0 "Abortions Prohibited"
+ law_banned_abortions_desc:0 "The killing of babies is strictly prohibited under our laws."
+ 
+ law_restricted_abortion:0 "Restricted Abortions"
+ law_restricted_abortion_desc:0 "Citizens are authorized abortions when the life of the mother is threatened, or in the cases of rape and incest."
+ 
+ law_unrestricted_abortions:0 "Unrestricted Abortions"
+ law_unrestricted_abortions_desc:0 "Citizens may freely exercise their right to an abortion as they please."
+ 
+ law_active_oppression:0 "Active Oppression"
+ law_active_oppression_desc:0 "Citizens who openly identify as members of the LGBTQ community are oppressed, jailed, or even killed."
+ 
+ law_restricted_lgbtq:0 "Criminalized Homosexuality"
+ law_restricted_lgbtq_desc:0 "Citizens may face jailtime for being gay."
+ 
+ law_decriminalized_gays:0 "Decriminalized Homosexuality"
+ law_decriminalized_gays_desc:0 "Citizens are allowed to engage in homosexual relationships, behind closed doors of course. Homosexual relationships will not be sanctioned by the state."
+ 
+ law_gay_marriage:0 "Same-Sex Marriage"
+ law_gay_marriage_desc:0 "The state is required to sanction all types of marriages, regardless of whether or not the initiators are of the same sex."
+ 
+  # immigration
+  institution_immigration:0 "Immigration Controls"
+  institution_immigration_desc:0 "A government body has been formed to curb or encourage immigration into our country as we see fit.
+  # dei
+
+  institution_diversity_equity_inclusion:0 "Diversity, Equity & Inclusion"
+  institution_diversity_equity_inclusion_desc:0 "A government department which focuses on giving the disadvantaged a fair ground in society."
+  
+  # spies
+  
+  institution_intelligence_agency:0 "Intelligence Agency"
+  institution_intelligence_agency_desc:0 "Intelligence agencies are responsible for covert operations around the globe."
+  
+  # laws below may be defunct.
+  
+  
+  # New Laws Any Group
+ law_equal_rights:0 "Equal Rights"
+ law_equal_rights_desc:0 "Women can expect to experience the same level of rights as their male counterparts."
+ law_prison_slavery:0 "Prison Slavery"
+ law_prison_slavery_desc:0 "Prisoners and Criminals are forced to work for long hours with little to no pay during their sentence."
+ law_restricted_police:0 "Restricted Police"
+ law_restricted_police_desc:0 "The power presented by the police force has been restricted and is subject to strict regulations to ensure the safety of the citizens they are poised to protect."
+ law_resettlement_enticement:0 "Resettlement Enticing"
+ law_resettlement_enticement_desc:0 "The government features programs to entice people to move to their territories."
+ 
+ # Rights of Minorities Group
+ 
+ lawgroup_rights_of_minorities:0 "Rights of Minorities"
+ lawgroup_rights_of_minorities_desc:0 "The legal regulations and protections on minority populations."
+ 
+ law_no_minority_rights:0 "No Minority Rights"
+ law_no_minority_rights_desc:0 "Minorities of all types will not recieve the same rights as those of the general populace."
+ law_segregation:0 "Segregation Laws"
+ law_segregation_desc:0 "Minorities will experience degrees of separation from the general populace, often getting the scraps & leftovers."
+ law_apartheid:0 "Apartheid Laws"
+ law_apartheid_desc:0 "Minorities will not experience the same society of the general populace, and will often be removed or relocated (often forcefully) to a designated 'land'."
+ law_unfulfilled_protections:0 "Unfulfilled Protections"
+ law_unfulfilled_protections_desc:0 "The state has made efforts to remove barriers for minorities, but the laws governing the rights of minorities remains largely unenforced."
+ law_limited_protections:0 "Limited Protections"
+ law_limited_protections_desc:0 "Minorities who are of a different ethnicity or nationality will recieve much of the same rights that the general population enjoy."
+ law_encompassing_protections:0 "Encompassing Protections"
+ law_encompassing_protections_desc:0 "Minorities that are of a different ethnicity or nationality, and those that are disabled will recieve all the rights and protections the general population enjoys."
+ law_universal_protections:0 "Universal Protections"
+ law_universal_protections_desc:0 "All Minorities, regardless of their ethnicity, nationality, ability, sexuality, or gender identity will recieve the same rights that the general population enjoys."
+ 
+ # Union Laws Group
+ 
+ lawgroup_union_laws:0 "Union Laws"
+ lawgroup_union_laws_desc:0 "The governing body's disposition towards work union actions such as strikes, walkouts, protests, riots & otherwise."
+ law_unions_outlawed:0 "Outlawed Unity"
+ law_unions_outlawed_desc:0 "Unions are outlawed in this nation & perpetrators will recieve swift resistance."
+ law_useless_unions:0 "Useless Bureaucracy"
+ law_useless_unions_desc:0 "Unions are nothing more than workers bureaucracy & lack the necessities to function & fight without external forces."
+ law_limited_action:0 "Limited Action"
+ law_limited_action_desc:0 "Unions are heavily restricted in what they are allowed to achieve and often have to navigate legal loopholes in order to be effective."
+ law_craft_unions:0 "Craft Unions"
+ law_craft_unions_desc:0 "Unions are restricted to their specific roles, and are prevented from forging allegiances with unions of other roles."
+ law_permitted_unions:0 "Permitted Action"
+ law_permitted_unions_desc:0 "Unions are neither legal nor illegal, they can function as they please but have little to no protection from the governing body."
+ law_enterprise_unions:0 "Enterprises"
+ law_enterprise_unions_desc:0 "Unions are there to improve working performance of its employees & focus on the needs of their members. They are effective at improving the lives of their members through necessary means."
+ law_backed_unions:0 "Backed Protections"
+ law_backed_unions_desc:0 "Unions are effectively backed by the public and has cemented itself as a part of the countries culture. They have protection by the people and are given legal protections towards striking action."
+ law_empowered_unions:0 "Union Empowerment"
+ law_empowered_unions_desc:0 "Unions are heavily reinforced by the police & have government backing. These unions are capable of getting their demands effectively, and are under every circumstance are protected & cheered on."
+ 
+ # Corporate Authority Group
+ 
+ lawgroup_corporate_authority:0 "Corporate Authority"
+ lawgroup_corporate_authority:0 "The legal regulations towards the corporations & the absurdly wealthy, these include regulations of their political power & control they are capable of exerting."
+ law_completely_unregulated:0 "Completely Unregulated"
+ law_completely_unregulated_desc:0 "The actions of corporations and the actions of the absurdly wealthy are not hindered in any way. Often to the detriment of the workers & people living there."
+ law_political_lobbying:0 "Political Lobbying"
+ law_political_lobbying_desc:0 "Anyone with a large enough sum of funds can lobby the government & pressure them into changing laws in their favour."
+ law_tax_haven:0 "Tax Haven"
+ law_tax_haven_desc:0 "Corporations and individuals with absurd wealth are considered welcome & the governing body has put laws into place favouring them with less taxes & more land."
+ law_feign_ignorance:0 "Feigned Ignorance"
+ law_political_lobbying_desc:0 "The governing body chooses to do as little as possible to restrict the power of the corporations and the absurdly wealthy by choosing to pretend it is not a problem."
+ law_limited_restrictions:0 "Limited Restrictance"
+ law_limited_restrictions_desc:0 "The assets of corporations & of the absurdly wealthy are taxed regardless of whether they are in money or held up in investments & stocks."
+ law_progressive_restrictions:0 "Progressive Restrictance"
+ law_progressive_restrictions_desc:0 "Any assets of the absurdly wealthy & all profits of corporation realised or not is taxed & used to better off the populace at a progressive rate."
+ law_no_one_individual:0 "No One Individual"
+ law_no_one_individual_desc:0 "The absurdly wealthy are beholden to the tax system of the governing body if they choose to do business there. Their wealth generated while in the country is reduced & is distributed to the populace in need."
+ law_corporate_redistribution:0 "Corporate Redistributance"
+ law_corporate_redistribution_desc:0 "Any wealth generated by the absurdly wealthy, or corporations is reduced to the maximum allowed amount. This wealth is then redistributed as needed. Corporations are handed over to the public & consist of a board including elected officials"
+ 
+ # Law Renames
+ law_serfdom:0 "Unfulfilled Labor Rights"
+ law_serfdom_desc:0 "There is either no established labour rights, or the established labour rights are completely unenforced."
+ law_serfdom_banned:0 "Bare Minimum Protections"
+ law_serfdom_banned_desc:0 "The bare minimum of protections have been established."
+ 

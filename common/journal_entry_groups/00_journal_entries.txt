@@ -1,0 +1,33 @@
+﻿##Define journal entry groups here: 
+
+# journalentrygroup_mygroup = {
+
+# }
+
+je_group_foreign_policy = {
+
+}
+
+je_group_domestic_policy = {
+
+}
+
+je_group_space_exploration = {
+
+}
+
+je_group_dilemmas = {
+
+}
+
+je_group_advancements = {
+
+}
+
+je_group_objectives = {
+
+}
+
+je_group_tutorial = {
+
+}

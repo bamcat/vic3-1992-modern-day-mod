@@ -1,0 +1,5 @@
+﻿COUNTRIES = {
+	c:ROC ?= {
+		smd_high_tech_effect = yes
+	}
+}

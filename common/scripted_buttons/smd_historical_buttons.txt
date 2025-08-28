@@ -1,0 +1,224 @@
+﻿je_request_iosa_aid_button = {
+	name = "je_request_iosa_aid_button"
+	desc = "je_request_iosa_aid_button_desc"
+
+	visible = {
+		always = yes
+	}
+
+	cooldown = { days = 75 }
+
+	ai_chance = {
+		value = 100
+	}
+
+	possible = {
+		custom_tooltip = {
+			text = countries_available_to_request_aid_from
+			any_country = {
+				NOT = { is_subject = yes }
+				NOT = { this = root }
+				relations:root >= 0
+				country_rank >= rank_value:major 
+					NOT = {
+						OR = {
+							tag = IDS # Indonesia
+							tag = SRI # Sri Lanka
+							tag = THA # Thailand
+							tag = IDA # India
+							tag = MLD # Maldives
+							}
+					}
+					NOT = { has_variable = has_sent_iosa }
+			}
+		}
+	}
+
+	effect = {
+		save_scope_as = iosa_aid_requester
+		set_variable = { name = iosa_aid_cooldown days = 75 }
+		random_country = {
+			limit = {
+				NOT = { is_subject = yes }
+				NOT = { this = root }
+				relations:root >= 0
+				country_rank >= rank_value:major_power
+				NOT = {
+						OR = {
+							tag = IDS # Indonesia
+							tag = SRI # Sri Lanka
+							tag = THA # Thailand
+							tag = IDA # India
+							tag = MLD # Maldives
+							}
+					}
+					NOT = { has_variable = has_sent_iosa }
+			}
+			trigger_event = { id = indian_ocean_tsunami.2 popup = yes }
+		}
+	}
+}
+
+quebec_concessions_button = {
+    name = "quebec_concessions_button"
+    desc = "quebec_concessions_button_desc"
+    visible = { always = yes }
+    ai_chance = { value = 10 }
+	cooldown = { days = 30 }
+	
+    possible = { NOT = {
+		custom_tooltip = {
+			text = too_many_quebec_concessions
+			var:quebec_concessions_used >= 3
+			} 
+		}
+	}
+
+    effect = {
+		custom_tooltip = {
+			text = quebec_happiness_10
+		}
+        je:je_quebec_happiness = {
+			add_progress = {
+				value = 5
+				name = quebec_happiness_bar
+			}
+		}
+        set_variable = { name = quebec_concessions_used value = 1 }
+    }
+}
+
+quebec_ignore_button = {
+    name = "quebec_ignore_button"
+    desc = "quebec_ignore_button_desc"
+    visible = { always = yes }
+	ai_chance = { value = 0 }
+	cooldown = { days = 45 }
+	
+    possible = { always = yes }
+
+    effect = {
+        je:je_quebec_happiness = {
+			add_progress = {
+				value = -5
+				name = quebec_happiness_bar
+			}
+		}
+		custom_tooltip = {
+			text = quebec_happiness_minus_10
+		}
+    }
+}
+
+je_troubles_increase_troop_button = {
+	name = "je_troubles_increase_troop_button"
+	desc = "je_troubles_increase_troop_button_desc"
+	cooldown = { days = 30 }
+	visible = {
+		always = yes
+	}
+	
+	possible = {
+		custom_tooltip = {
+			text = below_99_troop_strr
+			je:je_troubles_in_northern_ireland = {
+                "scripted_bar_progress(troubles_troop_strength_bar)" <= 99
+            }
+		}
+	}
+	
+	ai_chance = { value = 25 }
+
+	possible = { always = yes }
+	
+	effect = {
+		custom_tooltip = increases_troop_strength_5
+		custom_tooltip = this_will_piss_off_ira
+		je:je_troubles_in_northern_ireland = {
+			add_progress = {
+				value = 8
+				name = troubles_troop_strength_bar
+			}
+		}
+	}
+}
+
+je_request_bin_laden_extradition_button = {
+    name = "je_request_bin_laden_extradition_button"
+    desc = "je_request_bin_laden_extradition_button_desc"
+	cooldown = { days = 20 }
+	ai_chance = {
+        value = 10
+    }
+    visible = {
+        c:USA = this
+        has_journal_entry = je_hunt_for_bin_laden
+        NOT = { has_variable = bin_laden_extradition_requested }
+    }
+
+    ai_chance = {
+        value = 5
+    }
+
+    possible = {
+        is_at_war = no
+        exists = c:AFH
+    }
+
+    effect = {
+        set_variable = bin_laden_extradition_requested
+        c:AFH = { trigger_event = { id = afghanistan.1 popup = yes } }
+    }
+}
+
+accuse_iraq_wmds_button = {
+    name = accuse_iraq_wmds_button
+    desc = accuse_iraq_wmds_button_desc
+	cooldown = { days = 20 }
+    visible = {
+        c:USA ?= this
+        NOT = { has_variable = iraq_wmds_accused }
+		has_variable = bin_laden_extradition_requested
+    }
+
+    possible = {
+        exists = c:IRQ
+        is_at_war = no
+		NOT = { has_war_with = c:IRQ }
+		NOT = { has_subject_relation_with = c:IRQ }
+    }
+
+    effect = {
+        set_variable = iraq_wmds_accused
+        c:IRQ = {
+            trigger_event = { id = iraq_war.1 popup = yes }
+        }
+    }
+
+    ai_chance = {
+        value = 10
+    }
+}
+
+end_war_on_terror_button = {
+    name = end_war_on_terror_button
+    desc = end_war_on_terror_button_desc
+
+    visible = {
+        has_variable = war_on_terror_campaign_started
+		c:USA ?= this
+		game_date >= 2006.1.1
+    }
+
+    possible = {
+        has_variable = war_on_terror_campaign_started
+    }
+
+    effect = {
+        remove_variable = war_on_terror_campaign_started
+    }
+
+    ai_chance = {
+        value = 0
+    }
+}

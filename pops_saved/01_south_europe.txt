@@ -1,0 +1,1125 @@
+﻿POPS = {
+	s:STATE_LOMBARDY = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 1846416
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 110535
+			}
+		}
+	}
+	s:STATE_PIEDMONT = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 2962542
+			}
+			create_pop = {
+				culture = french
+				size = 31074
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 77541
+			}
+		}
+	}
+	s:STATE_SARDINIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 492633
+			}
+		}
+	}
+	s:STATE_MALTA = {
+		region_state:MLT = {
+			create_pop = {
+				culture = maltese
+				size = 125346
+			}
+			create_pop = {
+				culture = british
+				size = 3837
+			}
+		}
+	}
+	s:STATE_UMBRIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 862359
+			}
+		}
+	}
+	s:STATE_CORSICA = {
+		region_state:FRA = {
+			create_pop = {
+				culture = corsican
+				size = 86145
+			}
+			create_pop = {
+				culture = french
+				size = 16461
+			}
+		}
+	}
+	s:STATE_CAMPANIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 1800990
+			}
+		}
+	}
+	s:STATE_CALABRIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 764805
+			}
+		}
+	}
+	s:STATE_APULIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 1211730
+			}
+		}
+	}
+	s:STATE_ABRUZZO = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 449403
+			}
+		}
+	}
+	s:STATE_SAVOY = {
+		region_state:FRA = {
+			create_pop = {
+				culture = occitan
+				size = 267072
+			}
+			create_pop = {
+				culture = north_italian
+				size = 180105
+			}
+		}
+	}
+	s:STATE_EMILIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 608364
+			}
+		}
+	}
+	s:STATE_TUSCANY = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 994305
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 9171
+			}
+		}
+	}
+	s:STATE_ROMAGNA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 781212
+			}
+		}
+		region_state:SMN = {
+			create_pop = {
+				culture = north_italian
+				size = 8832
+			}
+		}
+	}
+	s:STATE_LAZIO = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 1709523
+			}
+			create_pop = {
+				culture = south_italian
+				religion = jewish
+				size = 16761
+			}
+		}
+		region_state:VAT = {
+			create_pop = {
+				culture = south_italian
+				size = 1359
+			}
+		}
+	}
+	s:STATE_VENETIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 1622352
+			}
+			create_pop = {
+				culture = north_italian
+				religion = jewish
+				size = 86835
+			}
+		}
+	}
+	s:STATE_SICILY = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 1504821
+			}
+		}
+	}
+	s:STATE_TOLEDO = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 2614803
+			}
+			create_pop = {
+				culture = aragonese
+				size = 244803
+			}
+		}
+	}
+	s:STATE_GALICIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = galician
+				size = 691923
+			}
+			create_pop = {
+				culture = spanish
+				size = 187722
+			}
+		}
+	}
+	s:STATE_ASTURIAS = {
+		region_state:SPA = {
+			create_pop = {
+				culture = asturian
+				size = 435972
+			}
+			create_pop = {
+				culture = spanish
+				size = 93072
+			}
+			create_pop = {
+				culture = basque
+				size = 41952
+			}
+		}	
+	}
+	s:STATE_CASTILE = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 740400
+			}
+			create_pop = {
+				culture = basque
+				size = 12975
+			}
+		}
+	}
+	s:STATE_NAVARRA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 205053
+			}
+			create_pop = {
+				culture = catalan
+				size = 62052
+			}
+			create_pop = {
+				culture = aragonese
+				size = 92052
+			}
+			create_pop = {
+				culture = asturian
+				size = 175836
+			}
+			create_pop = {
+				culture = basque
+				size = 399762
+			}
+		}
+	}
+	s:STATE_ARAGON = {
+		region_state:SPA = {
+			create_pop = {
+				culture = aragonese
+				size = 179526
+			}
+			create_pop = {
+				culture = spanish
+				size = 53400
+			}
+			create_pop = {
+				culture = basque
+				size = 162108
+			}
+			create_pop = {
+				culture = catalan
+				size = 76803
+			}
+		}
+	}
+	s:STATE_CATALONIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = catalan
+				size = 1260675
+			}
+			create_pop = {
+				culture = aragonese
+				size = 806526
+			}
+			create_pop = {
+				culture = spanish
+				size = 376236
+			}
+		}
+	}
+	s:STATE_BALEARES = {
+		region_state:SPA = {
+			create_pop = {
+				culture = catalan
+				size = 307350
+			}
+			create_pop = {
+				culture = spanish
+				size = 64104
+			}
+		}
+	}
+	s:STATE_ANDALUSIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1340721
+			}
+		}
+		region_state:GBR = {
+			create_pop = {
+				culture = spanish
+				size = 23070
+			}
+		}
+	}
+	s:STATE_GRANADA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1320480
+			}
+		}
+		region_state:GBR = {
+			create_pop = {
+				culture = spanish
+				size = 7530
+			}
+			create_pop = {
+				culture = british
+				size = 1905
+			}
+			create_pop = {
+				culture = french
+				size = 384
+			}
+		}
+	}
+	s:STATE_BADAJOZ = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 338103
+			}
+		}
+	}
+	s:STATE_VALENCIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 691536
+			}
+			create_pop = {
+				culture = catalan
+				size = 1489530
+			}
+		}
+	}
+	s:STATE_BEIRA = {
+		region_state:XPO = {
+			create_pop = {
+				culture = portuguese
+				size = 1193487
+			}
+		}
+	}
+	s:STATE_ESTREMADURA = {
+		region_state:XPO = {
+			create_pop = {
+				culture = portuguese
+				size = 1560381
+			}
+		}
+	}
+	s:STATE_ALENTEJO = {
+		region_state:XPO = {
+			create_pop = {
+				culture = portuguese
+				size = 2847330
+			}
+		}
+	}
+	s:STATE_CAPE_VERDE = {
+		region_state:CVD = {
+			create_pop = {
+				culture = portuguese
+				size = 124560
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 34596
+			}
+		}
+	}
+
+	s:STATE_MADEIRA = {
+		region_state:XPO = {
+			create_pop = {
+				culture = portuguese
+				size = 70923
+			}
+			create_pop = {
+				culture = afro_brazilian
+				size = 10200
+			}
+		}
+	}
+
+	s:STATE_CANARY_ISLANDS = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 646794
+			}
+		}
+		region_state:SPA = {
+			create_pop = {
+				culture = maghrebi
+				size = 30735
+			}
+		}
+	}
+
+	s:STATE_AZORES = {
+		region_state:XPO = {
+			create_pop = {
+				culture = portuguese
+				size = 74652
+			}
+		}
+	}
+	s:STATE_EASTERN_THRACE = {
+		region_state:TRK = {
+			create_pop = {
+				culture = turkish
+				size = 3014610
+			}
+			create_pop = {
+				culture = greek
+				size = 268245
+			}
+			create_pop = {
+				culture = north_italian
+				size = 6723
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 54000
+			}
+			create_pop = {
+				culture = sephardic
+				size = 75009
+			}
+		}
+	}
+	s:STATE_DOBRUDJA = {
+		region_state:ROM = {
+			create_pop = {
+				culture = turkish
+				size = 1896
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 4626
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 57000
+			}
+			create_pop = {
+				culture = gagauz
+				size = 7686
+			}
+			create_pop = {
+				culture = romanian
+				size = 302523
+			}
+		}
+		region_state:BUL = {
+			create_pop = {
+				culture = bulgarian
+				size = 77523
+			}
+			create_pop = {
+				culture = tatar
+				size = 9462
+			}
+			create_pop = {
+				culture = romanian
+				size = 4956
+			}
+			create_pop = {
+				culture = gagauz
+				size = 1275
+			}
+		}
+	}
+	s:STATE_ALBANIA = {
+		region_state:ALB = {
+			create_pop = {
+				culture = albanian
+				size = 645630
+			}
+			create_pop = {
+				culture = greek
+				size = 39735
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 71850
+			}
+			create_pop = {
+				culture = serb
+				size = 9360
+			}
+			create_pop = {
+				culture = macedonian
+				size = 25353
+			}
+			create_pop = {
+				culture = romani
+				size = 7953
+			}
+			create_pop = {
+				culture = aromanian
+				size = 56823
+			}
+		}
+	}
+	s:STATE_BOSNIA = {
+		region_state:BOS = {
+			create_pop = {
+				culture = bosniak
+				size = 403542
+			}
+			create_pop = {
+				culture = sephardic
+				size = 25242
+			}
+			create_pop = {
+				culture = serb
+				size = 34236
+			}
+			create_pop = {
+				culture = croat
+				size = 63603
+			}
+			create_pop = {
+				culture = macedonian
+				size = 31050
+			}
+			create_pop = {
+				culture = romani
+				size = 13530
+			}
+			create_pop = {
+				culture = aromanian
+				size = 3030
+			}
+		}
+	}
+	s:STATE_NORTHERN_THRACE = {
+		region_state:BUL = {
+			create_pop = {
+				culture = turkish
+				size = 31104
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 894015
+			}
+			create_pop = {
+				culture = greek
+				size = 70230
+			}
+			create_pop = {
+				culture = albanian
+				size = 30972
+			}
+			create_pop = {
+				culture = bulgarian
+				religion = sunni
+				size = 100680
+			}
+			create_pop = {
+				culture = sephardic
+				size = 36042
+			}
+			create_pop = {
+				culture = macedonian
+				size = 7053
+			}
+			create_pop = {
+				culture = romani
+				size = 3864
+			}
+			create_pop = {
+				culture = aromanian
+				size = 2535
+			}
+		}
+	}
+	s:STATE_BULGARIA = {
+		region_state:BUL = {
+			create_pop = {
+				culture = turkish
+				size = 54126
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 862353
+			}
+			create_pop = {
+				culture = sephardic
+				size = 7062
+			}
+			create_pop = {
+				culture = macedonian
+				size = 25413
+			}
+			create_pop = {
+				culture = romani
+				size = 34353
+			}
+			create_pop = {
+				culture = tatar
+				size = 12003
+			}
+			create_pop = {
+				culture = aromanian
+				size = 13530
+			}
+		}
+	}
+	s:STATE_SLOVENIA = {
+		region_state:SVN = {
+			create_pop = {
+				culture = slovene
+				size = 440526
+			}
+			create_pop = {
+				culture = south_german
+				size = 70542
+			}
+		}
+	}
+	s:STATE_DALMATIA = {
+		region_state:HRV = {
+			create_pop = {
+				culture = croat
+				size = 205200
+			}
+			create_pop = {
+				culture = serb
+				size = 31035
+			}
+			create_pop = {
+				culture = north_italian
+				size = 18960
+			}
+			create_pop = {
+				culture = macedonian
+				size = 3132
+			}
+			create_pop = {
+				culture = romani
+				size = 6462
+			}
+		}
+	}
+	s:STATE_CROATIA = {
+		region_state:HRV = {
+			create_pop = {
+				culture = croat
+				size = 452523
+			}
+			create_pop = {
+				culture = czech
+				religion = catholic
+				size = 86742
+			}
+			create_pop = {
+				culture = hungarian
+				size = 17622
+			}
+			create_pop = {
+				culture = south_german
+				size = 25350
+			}
+			create_pop = {
+				culture = serb
+				size = 52506
+			}
+		}
+	}
+	s:STATE_SLAVONIA = {
+		region_state:HRV = {
+			create_pop = {
+				culture = croat
+				size = 233403
+			}
+			create_pop = {
+				culture = serb
+				size = 14412
+			}
+			create_pop = {
+				culture = hungarian
+				size = 32700
+			}
+			create_pop = {
+				culture = south_german
+				size = 10953
+			}
+		}
+		region_state:SRB = {
+			create_pop = {
+				culture = croat
+				size = 30708
+			}
+			create_pop = {
+				culture = serb
+				size = 85353
+			}
+			create_pop = {
+				culture = hungarian
+				size = 9045
+			}
+			create_pop = {
+				culture = south_german
+				size = 6390
+			}
+		}
+		region_state:BOS = {
+			create_pop = {
+				culture = croat
+				size = 10563
+			}
+			create_pop = {
+				culture = serb
+				size = 441
+			}
+			create_pop = {
+				culture = hungarian
+				size = 372
+			}
+			create_pop = {
+				culture = bosniak
+				size = 2352
+			}
+		}
+	}
+	s:STATE_ISTRIA = {
+		region_state:HRV = {
+			create_pop = {
+				culture = north_italian
+				size = 6609
+			}
+			create_pop = {
+				culture = slovene
+				size = 9723
+			}
+			create_pop = {
+				culture = south_german
+				size = 3174
+			}
+			create_pop = {
+				culture = croat
+				size = 55356
+			}
+		}
+		region_state:SVN = {
+			create_pop = {
+				culture = north_italian
+				size = 15609
+			}
+			create_pop = {
+				culture = slovene
+				size = 60435
+			}
+			create_pop = {
+				culture = south_german
+				size = 3174
+			}
+			create_pop = {
+				culture = croat
+				size = 18690
+			}
+		}
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 109203
+			}
+			create_pop = {
+				culture = slovene
+				size = 30762
+			}
+			create_pop = {
+				culture = south_german
+				size = 20553
+			}
+			create_pop = {
+				culture = croat
+				size = 6249
+			}
+		}
+	}
+	s:STATE_MONTENEGRO = {
+		region_state:MGR = {
+			create_pop = {
+				culture = serb
+				size = 84303
+			}
+			create_pop = {
+				culture = croat
+				size = 51303
+			}
+			create_pop = {
+				culture = albanian
+				size = 58530
+			}
+			create_pop = {
+				culture = macedonian
+				size = 7533
+			}
+			create_pop = {
+				culture = romani
+				size = 26823
+			}		
+		}
+	}
+	s:STATE_NORTHERN_SERBIA = {
+		region_state:SRB = {
+			create_pop = {
+				culture = serb
+				size = 1141944
+			}
+			create_pop = {
+				culture = aromanian
+				size = 3153
+			}
+		}
+	}
+	s:STATE_SOUTHERN_SERBIA = {
+		region_state:SRB = {
+			create_pop = {
+				culture = bosniak
+				size = 48096
+			}
+			create_pop = {
+				culture = serb
+				size = 375078
+			}
+			create_pop = {
+				culture = greek
+				size = 63735
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 14820
+			}
+			create_pop = {
+				culture = romani
+				size = 7053
+			}
+			create_pop = {
+				culture = aromanian
+				size = 4536
+			}
+		}
+		region_state:KOS = {
+			create_pop = {
+				culture = serb
+				size = 145680
+			}
+			create_pop = {
+				culture = greek
+				size = 40686
+			}
+			create_pop = {
+				culture = albanian
+				size = 376203
+			}
+			create_pop = {
+				culture = macedonian
+				size = 19536
+			}
+			create_pop = {
+				culture = romani
+				size = 5523
+			}
+			create_pop = {
+				culture = aromanian
+				size = 2052
+			}
+		}
+	}
+	s:STATE_CRETE = {
+		region_state:GRK = {
+			create_pop = {
+				culture = turkish
+				size = 26553
+			}
+			create_pop = {
+				culture = cypriot
+				size = 8580
+			}
+			create_pop = {
+				culture = greek
+				size = 201462
+			}
+		}
+	}
+	s:STATE_WEST_AEGEAN_ISLANDS = {
+		region_state:GRK = {
+			create_pop = {
+				culture = greek
+				size = 89388
+			}
+		}
+		region_state:GRK = {
+			create_pop = {
+				culture = turkish
+				size = 14460
+			}
+		}
+	}
+
+	s:STATE_EAST_AEGEAN_ISLANDS = {
+		region_state:GRK = {
+			create_pop = {
+				culture = greek
+				size = 54642
+			}
+			create_pop = {
+				culture = cypriot
+				size = 6597
+			}
+			create_pop = {
+				culture = turkish
+				size = 24897
+			}
+		}
+	}
+	s:STATE_ATTICA = {
+		region_state:GRK = {
+			create_pop = {
+				culture = greek
+				size = 1167777
+			}
+			create_pop = {
+				culture = aromanian
+				size = 70323
+			}
+			create_pop = {
+				culture = macedonian
+				size = 121536
+			}
+		}
+	}
+	s:STATE_THESSALIA = {
+		region_state:GRK = {
+			create_pop = {
+				culture = turkish
+				size = 38520
+			}
+			create_pop = {
+				culture = albanian
+				size = 7455
+			}
+			create_pop = {
+				culture = greek
+				size = 310770
+			}
+			create_pop = {
+				culture = cypriot
+				size = 11388
+			}
+			create_pop = {
+				culture = aromanian
+				size = 4452
+			}
+		}
+	}
+	s:STATE_SKOPIA = {
+		region_state:NMC = {
+			create_pop = {
+				culture = turkish
+				size = 39462
+			}
+			create_pop = {
+				culture = greek
+				size = 15306
+			}
+			create_pop = {
+				culture = macedonian
+				size = 318054
+			}
+			create_pop = {
+				culture = serb
+				size = 21186
+			}
+			create_pop = {
+				culture = albanian
+				size = 120735
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 65223
+			}
+			create_pop = {
+				culture = romani
+				size = 25413
+			}
+			create_pop = {
+				culture = aromanian
+				size = 3762
+			}
+		}
+	}
+	s:STATE_MACEDONIA = {
+		region_state:GRK = {
+			create_pop = {
+				culture = turkish
+				size = 30768
+			}
+			create_pop = {
+				culture = greek
+				size = 461523
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 62052
+			}
+			create_pop = {
+				culture = cypriot
+				size = 47160
+			}
+			create_pop = {
+				culture = macedonian
+				size = 25422
+			}
+			create_pop = {
+				culture = romani
+				size = 3162
+			}
+			create_pop = {
+				culture = aromanian
+				size = 10623
+			}
+		}
+	}
+	s:STATE_WESTERN_THRACE = {
+		region_state:GRK = {
+			create_pop = {
+				culture = greek
+				size = 90981
+			}
+			create_pop = {
+				culture = turkish
+				size = 58686
+			}
+			create_pop = {
+				culture = bulgarian
+				size = 90642
+			}
+			create_pop = {
+				culture = gagauz
+				size = 3762
+			}
+			create_pop = {
+				culture = aromanian
+				size = 13536
+			}
+		}
+	}
+	s:STATE_IONIAN_ISLANDS = {
+		region_state:GRK = {
+			create_pop = {
+				culture = greek
+				size = 47040
+			}
+			create_pop = {
+				culture = british
+				size = 10803
+			}
+			create_pop = {
+				culture = albanian
+				size = 5862
+			}
+			create_pop = {
+				culture = gagauz
+				size = 6168
+			}
+			create_pop = {
+				culture = aromanian
+				size = 6435
+			}
+		}
+	}
+	s:STATE_PELOPONNESE = {
+		region_state:GRK = {
+			create_pop = {
+				culture = greek
+				size = 314904
+			}
+			create_pop = {
+				culture = aromanian
+				size = 13536
+			}
+		}
+	}
+}

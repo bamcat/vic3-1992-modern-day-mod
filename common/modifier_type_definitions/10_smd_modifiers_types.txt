@@ -1,0 +1,15 @@
+﻿country_institution_immigration_max_investment_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_institution_diversity_equity_inclusion_max_investment_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

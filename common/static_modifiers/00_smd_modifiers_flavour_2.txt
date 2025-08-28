@@ -1,0 +1,118 @@
+﻿# basic for streamlining events
+
+stronger_authority = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_authority_add = 100
+}
+
+more_prestige = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult =  0.25
+}
+
+
+government_run_wifi_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_authority_add = 150
+}
+
+cancer_eradication_prestige = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_prestige_mult =  0.35
+}
+
+los_angeles_riots = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds.dds
+	state_infrastructure_from_population_mult = -0.25
+	state_afro_american_standard_of_living_add = -3
+	state_han_standard_of_living_add = -5
+	state_korean_standard_of_living_add = -5
+	state_japanese_standard_of_living_add = -5
+	state_infrastructure_mult = -0.25
+	state_mortality_turmoil_mult = 0.5
+	state_turmoil_effects_mult = 1.5
+	state_radicals_from_political_movements_mult = 2.5
+}
+
+tsunami_local_destruction = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	 
+    state_infrastructure_mult = -0.30
+    state_turmoil_effects_mult = 0.5
+	state_standard_of_living_add = -2
+	state_mortality_mult = 1.25
+}
+
+tsunami_reconstruction_complete = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+    state_standard_of_living_add = 1
+}
+
+tsunami_disaster_struck = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
+	country_bureaucracy_mult = -0.15
+}
+
+tsunami_reconstruction_complete = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_bureaucracy_mult = 0.10
+	pop_standard_of_living_add = 1
+}
+
+tsunami_foreign_aid_sent = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	diplomatic_pact_cost_mult = -0.1
+	relations_gain_mult = 0.25
+}
+
+north_hollywood_police_response = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_military_positive.dds
+	interest_group_ig_armed_forces_pop_attraction_mult = 0.25
+}
+
+post_yugoslav_turmoil = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_negative.dds
+	country_legitimacy_base_add = -10
+	country_radicals_from_conquest_mult = 0.10
+}
+
+un_peacekeeping_forces = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_legitimacy_base_add = 10
+	country_war_exhaustion_casualties_mult = -0.1
+}
+
+yugoslav_restoration_success = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_authority_mult = 0.15
+	country_loyalists_from_legitimacy_mult = 0.10
+	country_legitimacy_add = 25
+}
+
+yugoslavia_unified_nationalism = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	interest_group_ig_armed_forces_pop_attraction_mult = 0.10
+}
+
+anti_serbian_sentiment = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_ig_armed_forces_pop_attraction_mult = 0.10
+}
+
+heightened_security_measures = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds
+	country_authority_add = 125
+}
+
+oklahoma_city_aftermath = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    construction_speed_mult = -0.15
+    state_infrastructure_mult = -0.25
+}
+
+fukushima_nuclear_disaster = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+    state_infrastructure_mult = -0.15
+    state_mortality_mult = 0.05
+    country_construction_goods_cost_mult = 0.15
+}

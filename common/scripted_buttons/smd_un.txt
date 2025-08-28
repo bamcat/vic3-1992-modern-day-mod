@@ -1,0 +1,66 @@
+﻿sb_request_peacekeepers = {
+	name = "sb_request_peacekeepers"
+	desc = "sb_request_peacekeepers_desc"
+
+	visible = {
+		always = yes
+	}
+
+	cooldown = { days = 730 }
+	
+	possible = {
+		is_at_war = yes
+		custom_tooltip = {
+		NOT = { global_var:un_peacekeeping_num_votes >= 1 }
+		NOT = { global_var:un_peacekeeping_num_votes <= -1 }
+		global_var:un_peacekeeping_num_votes = 0
+		text = un_already_voting_on_peacekeeping
+		}
+		OR = { 
+		NOT = { has_modifier = un_peacekeepers_deployed }
+		NOT = { has_modifier = un_peacekeepers_vetoed }
+		}
+		random_diplomatic_play = {
+			limit = { is_war = yes any_scope_play_involved = this }
+			has_war_support = {
+			target = c:this
+			value < 50
+			}
+		}
+	}
+
+	ai_chance = {
+		value = 25
+		if = { limit = { c:SRB ?= this }
+			add = -25
+		}
+	}
+	
+	effect = {
+		trigger_event = { id = un_events.1 popup = yes }
+	}
+}
+
+# Motion
+
+un_propose_motion_button = {
+    name = "un_propose_motion_button"
+    desc = "un_propose_motion_button_desc"
+	cooldown = { days = 720  }
+	
+    visible = {
+        always = yes
+    }
+
+    possible = {
+		always = no
+       # NOT = { exists = global_var:un_motion_active }
+    }
+
+    ai_chance = { value = 5 }
+
+    effect = {
+        # open the proposal UI for the player (popup)
+        trigger_event = { id = un_events.100 }
+    }
+}

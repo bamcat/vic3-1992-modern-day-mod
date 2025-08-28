@@ -1,0 +1,17 @@
+texticon = {
+  icon = servants
+  iconsize = {
+    offset = { 0 7 }
+    texture = "gfx/interface/icons/ig_icons/servants_30.dds"
+    fontsize = 22
+  }
+}
+
+texticon = {
+  icon = professionals
+  iconsize = {
+    offset = { 0 7 }
+    texture = "gfx/interface/icons/ig_icons/professionals_30.dds"
+    fontsize = 22
+  }
+}

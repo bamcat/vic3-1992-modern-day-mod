@@ -1,0 +1,765 @@
+﻿l_english:
+#################### JE ####################
+# The Internet
+
+je_internet:0 "The Internet"
+je_internet_reason:0 "It's time to connect our country to the internet! We must upgrade our telecommunications network beyond supporting simple telephone traffic, and finally introduce our citizens to the wonders of the World Wide Web!"
+
+smd_tech.1.t:0 "[ROOT.GetCountry.GetName] Goes Online"
+smd_tech.1.d:0 "For decades, our communications have relied on newspapers, radio, and television. But a quiet revolution is sweeping the world — a vast network of interconnected computers known as the Internet. Once the domain of academics and military researchers, it now promises to change how our citizens work, learn, and connect."
+smd_tech.1.f:0 "Dial-up internet: because nothing says 'high-tech' like screaming beeps and waiting 5 minutes to load a picture of a cat."
+
+smd_tech.1.a:0 "Perhaps other technologies should connect to the web aswell!"
+smd_tech.1.b:0 "We could use the interwebs to exercise control over public opinion"
+
+government_run_wifi_modifier:0 "Government Interference in Wifi"
+
+# Computer Science
+
+je_computer_science:0 "Computer Science"
+je_computer_science_reason:0 "Computer science is the study of how computers work, how they can be made to solve problems, and how we can use them efficiently and safely."
+
+smd_tech.2.t:0 "Computer Science Degrees"
+smd_tech.2.d:0 "Imagine it as the science of thinking logically and solving problems — but with machines that obey every tiny instruction. It’s both abstract and practical, and it powers nearly every modern technology around us, from smartphones to self-driving cars."
+
+# Pesticides
+
+je_pesticides:0 "Herbicides"
+je_pesticides_reason:0 "Pesticides are substances that are used to control pests. They include herbicides, insecticides, nematicides, fungicides, and many others. The most common of these are herbicides, which account for approximately 50% of all pesticide use globally. With this new invention, we're faced with the duty of modernizing our agriculture sector to include pesticides."
+
+smd_tech.3.t:0 "A Sea of Dead Pests"
+smd_tech.3.d:0 "For millennia, insects & rodents have remained an unrelenting threat to human agricultural activity. With the recent invention of various food-safe chemicals which repell and kill harmful insects, we can yield more bountiful harvests, whilst ensuring greater food security once and for all!"
+
+smd_tech.3.a:0 "It'd probably be better if they did less environmental damage..."
+
+# Globalization
+
+je_globalization:0 "Globalization"
+je_globalization_reason:0 "Globalization is a late 20th century phenomena defined by greater interconnectedness, the free transit of culture, goods, weapons, and people, each sparked by greater free trade initiatives across the globe."
+
+je_asian_economic_reform: "Economic Reform"
+je_asian_economic_reform_reason: "China and India have long been bound by economic restrictions. The global economy is moving rapidly towards integration and free trade. By removing outdated restrictions, we may usher in unprecedented growth. Until then, our markets remain constrained."
+
+asian_economy_restrictions: "Economic Restrictions"
+asian_economy_restrictions_desc: "State-controlled inefficiencies and protectionist barriers slow down trade, reducing competitiveness and international access."
+
+booming_trade_economy: "Booming Trade Economy"
+booming_trade_economy_desc: "With restrictions lifted, foreign and domestic markets flourish, leading to greater prosperity."
+
+asia_reform.1.t: "Markets Open Up"
+asia_reform.1.d: "The reforms have been enacted and restrictive trade policies removed. China and India now stand at the forefront of economic globalization."
+asia_reform.1.f: "‘We must open our markets, for isolation is no longer sustainable.’"
+asia_reform.1.a: "A new era of trade begins."
+
+# Starship
+
+je_starships:0 "Starships"
+je_starships_reason:0 "The invention of the reusable rocket has quickly spurred on the invention of another type of spacecraft, the starship. Capable of efficiently breaching interplanetary barriers, landing on mars, and returning back to earth, all whilst keeping astronauts in stable health, it's a revolutionary new design which deserves our recognition."
+
+# coming soon
+
+################ others ###########
+
+# Cancer
+
+cancer.1.t:0 "The Cure for Cancer"
+cancer.1.d:0 "For over a century, cancer has haunted humanity — an unpredictable affliction that claimed millions and eluded every cure. It knew no borders, respected no status, and left devastation in every family it touched. But today, after years of relentless research, clinical trials, and international collaboration, scientists have done the impossible: developed a universal, targeted cure. This breakthrough therapy detects and destroys malignant cells without harming healthy tissue, making remission not just possible, but guaranteed."
+cancer.1.a:0 "A triumph for all mankind."
+cancer_eradication_prestige:0 "Eradicated Cancer"
+
+# 2004 Indian Ocean earthquake and tsunami
+
+indian_ocean_tsunami.1.t: "Earthquake Strikes the Indian Ocean"
+indian_ocean_tsunami.1.d: "A massive undersea earthquake has triggered a catastrophic tsunami, devastating coastal regions across South and Southeast Asia. The damage is unprecedented, and the recovery will take years."
+indian_ocean_tsunami.1.a: "We must begin rebuilding immediately."
+indian_ocean_tsunami.1.f: "In one of the worst disasters on record, a devastating earthquake & tsunami has destroyed our coastal regions"
+
+je_indian_ocean_tsunami: "Tsunami Recovery"
+je_indian_ocean_tsunami_reason: "A devastating tsunami has damaged your coastal infrastructure and shaken the country. Rebuilding efforts are crucial to recovery and stability."
+
+tsunami_recovery_success_tt: "You have successfully initiated national recovery."
+
+tsunami_disaster_struck: "Nationwide Tsunami Damage"
+tsunami_local_destruction: "Local Tsunami Devastation"
+tsunami_reconstruction_complete: "Reconstruction Complete"
+  
+indian_ocean_tsunami_recovery_title: "Tsunami Recovery Efforts"
+indian_ocean_tsunami_recovery_desc: "Your country has been hit by the Indian Ocean Tsunami. Implement aid and recovery to stabilize your population and infrastructure."
+
+tsunami_aid_title: "Provide Humanitarian Aid"
+tsunami_aid_desc: "Enact welfare reforms or allocate financial aid to help rebuild affected areas."
+
+tsunami_disaster_struck: "Nationwide Tsunami Damage"
+tsunami_local_destruction: "Local Tsunami Devastation"
+tsunami_reconstruction_complete: "Successful Reconstruction Effort"
+tsunami_recovery_success_tt: "Country has enacted a social welfare law before December 2005."
+ 
+indian_ocean_tsunami.2.t: "Tsunami Devastates South Asia"
+indian_ocean_tsunami.2.d: "A massive earthquake and tsunami have struck the Indian Ocean. Humanitarian catastrophe looms. The world watches—will we act?"
+indian_ocean_tsunami.2.f: "Entire coastlines have vanished. Aid is needed urgently."
+indian_ocean_tsunami.2.a: "Send emergency aid."
+indian_ocean_tsunami.2.b: "We have our own priorities."
+
+indian_ocean_tsunami.3.t: "Aid Received"
+indian_ocean_tsunami.3.d: "A foreign nation has sent humanitarian relief. Your people are grateful."
+indian_ocean_tsunami.3.a: "Thank God for global solidarity."
+
+tsunami_foreign_aid_sent: "Sent Foreign Aid to Tsunami Victims"
+countries_available_to_request_aid_from:0 "Countries are available to request aid from"
+has_sent_iosa:0 "Has already sent aid"
+
+je_request_iosa_aid_button:0 "Request International Aid"
+je_request_iosa_aid_button_desc:0 "Request aid from the international community to help recover from the devastating earthquake and tsunami."
+
+tsunami_disaster_struck: "Affected by 2004 Indian Ocean Earthquake & Tsunami"
+
+# Iraq disarmament Crisis
+
+je_iraq_disarmament_crisis: "Iraq Disarmament Crisis"
+je_iraq_disarmament_crisis_reason: "Following the Gulf War, Iraq was bound by United Nations Security Council Resolution 687 to dismantle its weapons of mass destruction programs. The international community, through UNSCOM and the IAEA, sought to verify compliance, but Iraq’s obstruction and disputes over inspections have created a protracted standoff.\n\nThe crisis threatens to reignite conflict as tensions grow over Iraq’s refusal to fully cooperate with the disarmament regime."
+iraq_disarmament_resolved_tt: "The Iraqi Disarmament Crisis has been resolved."
+
+je_us_iraq_disarmament: "Iraq Disarmament Crisis"
+je_us_iraq_disarmament_reason: "The United States has committed itself to enforcing Iraq’s compliance with United Nations Security Council Resolution 687. Repeated Iraqi obstruction of UNSCOM and IAEA inspections undermines global security and fuels tensions in the Gulf region.\n\nDiplomatic efforts continue, but military options remain on the table if inspections fail."
+
+iraq_events.10.t: "Iraq Rejects UNSCOM Aircraft"
+iraq_events.10.d: "In a bold challenge to the United Nations Special Commission (UNSCOM), Iraq has rejected proposals for inspectors to use their own aircraft to enter the country. Baghdad insists on full control over access and transportation, raising fresh concerns about its commitment to disarmament."
+iraq_events.10.a: "Reject their terms — Iraq’s sovereignty comes first."
+iraq_events.10.b: "Allow the flights — cooperation may ease tensions."
+
+us_events.10.t: "Iraq Blocks UNSCOM Aircraft"
+us_events.10.d: "Iraq has refused to allow UNSCOM inspectors to fly their own aircraft into the country, further hindering inspection efforts. This move is seen as a direct act of defiance toward the UN and a setback for disarmament efforts."
+us_events.10.a: "This cannot go unanswered."
+us_events.10.b: "Avoid escalation — for now."
+
+################# COUNTRY-SPECIFIC ##############
+
+# united states
+
+rodney.1.t:0 "Police Beating of Rodney King"
+rodney.1.d:0 "An unarmed African-American, Rodney King was violently beaten by officers of the Los Angeles Police Department after a high-speed chase. A bystander filmed the assault, exposing police brutality and sparking national outrage."
+rodney.1.f:0 "They surrounded him and kept beating him with batons. He wasn’t fighting back. It was horrifying — like they wanted to make an example out of him."
+
+rodney.1.a:0 "It's gonna be a hot summer.."
+
+rodney.2.t:0 "Riots in Los Angeles"
+rodney.2.d:0 "In the wake of the police officers accused of using excessive force in the beating of Rodney King being aquitted, vast swaths of people have taken to the streets, causing over $1 billion in damage to The City"
+los_angeles_riots:0 "Rodney King Riots"
+rodney.2.a:0 "They'll settle down on their own."
+rodney.2.b:0 "Send in the National Guard!"
+
+north_hollywood.1.t: "Shootout in North Hollywood"
+north_hollywood.1.d: "Two robbers were clad in body armor and carried assault rifles. Outgunned officers had to borrow weapons from a local gun store to respond effectively."
+north_hollywood.1.f: "Two heavily armed bank robbers engaged in a lengthy shootout with Los Angeles police, wounding several officers and civilians. The incident has shocked the nation and raised questions about police preparedness."
+north_hollywood.1.a: "A chilling day in law enforcement history."
+
+north_hollywood_police_response:0 "Increased Law Enforcement Support"
+
+wtc_bombing.1.t: "1993 World Trade Center Bombing"
+wtc_bombing.1.d: "A powerful truck bomb has exploded beneath the North Tower of the World Trade Center in New York City, killing six people and injuring over a thousand. The attack has shocked the nation, revealing vulnerabilities to terrorism within its own borders."
+wtc_bombing.1.a: "Increase domestic security measures."
+wtc_bombing.1.b: "Remain calm and avoid overreaction."
+heightened_security_measures: "Heightened Security Measures"
+heightened_security_measures_desc: "In response to a terrorist attack, the government has implemented stronger internal security policies and law enforcement coordination."
+oklahoma_city_aftermath: "Oklahoma City Bombing Aftermath"
+oklahoma_city_aftermath_desc: "The devastating bombing of the Alfred P. Murrah Federal Building has left the nation shaken. Security concerns and political repercussions linger as the government tightens its domestic vigilance."
+ 
+usa_events.1.t: "Republican Primary Results"
+usa_events.1.d: "After a heated primary season filled with debates and campaigning, the Republican Party has chosen its new standard-bearer. George W. Bush has emerged victorious, taking the reins of the Petite Bourgeoisie and promising a bold new chapter for the party."
+usa_events.1.a: "The nomination is his."
+
+usa_events.2.t: "The Nomination of Barack Obama"
+usa_events.2.d: "After a heated primary season filled with debates and campaigning, the Democratic Party has chosen its new standard-bearer. Barack Hussein Obama has emerged victorious, taking the reins of the Petite Bourgeoisie and promising a bold new chapter for the party."
+usa_events.2.a: "The nomination is his."
+
+usa_events.3.t: "The Nomination of Donald Trump"
+usa_events.3.d: "After a heated primary season filled with debates and campaigning, the Republican Party has chosen its new standard-bearer. Donald John Trump, a particularly controversial figure, has emerged victorious, taking the reins of the Professionals and promising a bold new chapter for the party."
+usa_events.3.a: "The nomination is his."
+
+# Storm of the Century
+american_disasters.1.t: "1993 Storm of the Century"
+american_disasters.1.d: "A massive cyclonic storm has swept across the eastern United States, bringing record snowfall, hurricane-force winds, and severe flooding along the coasts. Millions are left without power, and the death toll rises daily."
+american_disasters.1.a: "We must endure the winter’s wrath."
+
+# Great Flood of 1993
+american_disasters.2.t: "The Great Flood!"
+american_disasters.2.d: "Weeks of heavy rain and saturated soil have caused the Mississippi and Missouri rivers to swell far beyond their banks, submerging vast areas of the American Midwest. Entire towns are underwater, and the damage is unprecedented."
+american_disasters.2.a: "A disaster for the heartland."
+
+great_flood_of_1993: "Great Flood of 1993"
+storm_of_the_century: "1993 Storm of the Century"
+
+# Columbine
+
+columbine.1.t: "Colorado High School Massacre"
+columbine.1.d: "Two heavily armed students have carried out a deadly attack at Columbine High School in Colorado, killing and wounding many before taking their own lives. The event has sparked nationwide grief and debate over gun control, school safety, and cultural influences."
+columbine.1.a: "Thoughts & prayers"
+columbine.1.b: "We must increase security at schools across our nation."
+
+national_mourning_school_shooting: "Mourning School Shooting"
+school_security_measures: "School Security Measures"
+
+better_school_security: "Better School Security"
+thoughts_and_prayers: "Thoughts & Prayers"
+recent_mass_shooting: "Recent Mass Shooting"
+
+# September 11 Attacks 
+
+ground_zero: "Ground Zero"
+  
+je_war_on_terror: "War On Terror"
+je_war_on_terror_reason: "The September 11, 2001 terrorist attacks on the United States marked the beginning of a sustained global campaign against terrorism.\n\nFollowing the attacks, the United States launched what it called the 'War on Terror' — a broad strategy that combined military operations, intelligence efforts, and domestic security measures. The consequences reshaped foreign policy, civil liberties debates, and international alliances.\n\n"
+
+usa_wot.1.t: "America Under Attack"
+usa_wot.1.d: "Coordinated terrorist attacks struck New York City and Washington, D.C., destroying the World Trade Center towers and severely damaging the Pentagon. Thousands have been killed or injured. The nation is in shock and demanding a response."
+usa_wot.1.a: "A day that will live in infamy."
+
+usa_wot.2.t: "A War on Terror"
+usa_wot.2.d: "In the aftermath of the attacks, the President has announced a global campaign against those who plan, support, or harbor terrorist organizations. This declaration will lead to increased security measures at home and military commitments abroad."
+usa_wot.2.a: "We will bring them to justice."
+
+global_wot.1.t: "U.S Attacked; Thousands Dead"
+global_wot.1.d: "The United States has suffered devastating terrorist attacks. World leaders have offered condolences and many states are reconsidering their security arrangements."
+global_wot.1.a: "A tragedy for all humanity."
+
+global_wot.2.t: "United States Declares War on Terror"
+global_wot.2.d: "Following the September 11 attacks, the United States has declared a global 'War on Terror' — calling on the international community to join a campaign against terrorist groups and their supporters."
+global_wot.2.a: "The international order shifts."
+
+global_wot.3.t: "U.S Invokes Article 5"
+global_wot.3.d: "Following the September 11 attacks and the subsequent US military campaign in Afghanistan, Article 5 of the NATO charter has been invoked for the first time in history. As a member state, we are being called upon to join the war effort."
+global_wot.3.a: "We stand with our allies."
+
+usa_wot.3.t: "Anthrax Attacks Terrorize America"
+usa_wot.3.d: "In the weeks following the September 11 attacks, anonymous letters containing deadly anthrax spores were mailed to news organizations and U.S. Senators. The attacks have sown fear across the country, sparked massive investigations, and heightened concerns about biological warfare."
+usa_wot.3.a: "Justice will be delivered. And it will be swift."
+usa_wot.3.b: "Not again!"
+  
+je_hunt_for_bin_laden: "The Hunt for Osama Bin Laden"
+je_hunt_for_bin_laden_reason: "In the wake of the attacks of September 11th, 2001, the United States has launched an extensive & global search for Osama bin Laden, leader of al-Qaeda. This mission will span across borders, involving military operations, intelligence gathering, and diplomatic pressure.\n\n"
+intensified_intelligence_operations: "The Hunt for Osama Bin Laden"
+
+hunt_bin_laden_progress_bar: "Hunt Progress"
+hunt_bin_laden_progress_bar_desc: "Search Progress"
+osama_bar_completed: "Osama Bin Laden has been found"
+
+usa_wot.10.t: "The Hunt for Osama Bin Laden"
+usa_wot.10.d: "With the War on Terror underway, U.S. intelligence agencies and special forces have begun a worldwide search for Osama bin Laden. Decisions now will determine the intensity and scope of the operation."
+usa_wot.10.a: "Commit all necessary resources."
+usa_wot.10.b: "Focus on other priorities."
+
+usa_wot.12.t: "Bin Laden Captured"
+usa_wot.12.d: "After years of pursuit, Osama bin Laden has been located and neutralized. The United States celebrates a significant victory in the War on Terror."
+usa_wot.12.a: "Justice has been served."
+
+usa_wot.11.t: "U.S Kills Bin Laden"
+usa_wot.11.d: "After months of intelligence gathering and preparation, U.S. Navy SEALs launched a daring raid on a compound in Abbottabad, Pakistan. The objective: capture or kill Osama Bin Laden. The world awaits the outcome."
+
+usa_wot.11.a: "Coward to the very end."
+
+usa_wot.11.success_tt: "Osama Bin Laden has been killed in Pakistan. The War on Terror enters a new phase."
+
+usa_wot.20.t: "Intelligence Breakthrough"
+usa_wot.20.d: "CIA operatives uncover valuable intelligence from captured militants, providing new leads on Bin Laden’s possible whereabouts."
+usa_wot.20.a: "Excellent, push forward."
+usa_wot.20.a.tt: "Progress towards finding Bin Laden has increased."
+
+usa_wot.21.t: "Bin Laden Releases Video"
+usa_wot.21.d: "Months of tracking a suspect believed to be connected to Bin Laden turned out to be a dead end. Resources have been wasted. To make matters worse, the middle-eastern terrorist has released a video for the American public to watch."
+usa_wot.21.a: "Frustrating setback."
+usa_wot.21.a.tt: "Progress towards finding Bin Laden has decreased."
+
+usa_wot.22.t: "Regional Cooperation"
+usa_wot.22.d: "Pakistan and regional allies provide assistance in intelligence gathering, accelerating the hunt for Bin Laden."
+usa_wot.22.a: "This will aid us greatly."
+usa_wot.22.a.tt: "Progress towards finding Bin Laden has significantly increased."
+ 
+accuse_iraq_wmds_button: "Accuse Iraq of Harboring WMDs"
+accuse_iraq_wmds_button_desc: "Accuse Iraq of secretly developing or harboring Weapons of Mass Destruction. This will escalate tensions and may justify military action."
+
+end_war_on_terror_button: "End the War on Terror"
+end_war_on_terror_button_desc: "Declare the War on Terror officially over, winding down international operations. This will leave lingering consequences at home and abroad."
+
+usa_wot.30.t: "Accused of Harboring WMDs"
+usa_wot.30.d: "The United States has publicly accused us of secretly developing and harboring Weapons of Mass Destruction. This marks a significant escalation in tensions and may bring conflict closer."
+usa_wot.30.a: "Scary"
+  
+osama_extradited: "Osama Bin Laden has been extradited"
+war_on_terror_stopped_tt: "The War on Terror has ended"
+# War on TERROR
+
+usa_wot.5.t: "Bin Laden In Custody"
+usa_wot.5.d: "In a surprising diplomatic breakthrough, Afghanistan has agreed to extradite Osama bin Laden to the United States. This concession marks a significant victory in the early stages of the War on Terror."
+usa_wot.5.a: "This is a major diplomatic win."
+
+usa_wot.6.t: "Afghanistan Refuses to Extradite Bin Laden"
+usa_wot.6.d: "The Afghan government has refused to hand over Osama bin Laden to US authorities. Tensions rise as Washington debates its next move."
+usa_wot.6.a: "You are either with the terrorists, or against them."
+usa_wot.6.b: "Lets not take any brash actions, now.."
+
+je_request_bin_laden_extradition_button: "Request Bin Laden’s Extradition"
+je_request_bin_laden_extradition_button_desc: "Formally request that Afghanistan extradite Osama bin Laden to the United States for trial."
+
+bin_laden_extradition_accepted_country: "Bin Laden Extradition - Accepted"
+bin_laden_extradition_accepted_country_desc: "Afghanistan has agreed to extradite Osama bin Laden, boosting national morale and improving military readiness."
+  
+bin_laden_extradition_accepted_ig_armed_forces: "Bin Laden Extradition - Accepted"
+bin_laden_extradition_accepted_ig_armed_forces_desc: "The Armed Forces are pleased with the government's diplomatic success in securing Bin Laden's extradition."
+
+bin_laden_extradition_rejected_country: "Bin Laden Extradition - Rejected"
+bin_laden_extradition_rejected_country_desc: "Afghanistan has refused to extradite Osama bin Laden, hurting our military preparedness and straining resources."
+  
+bin_laden_extradition_rejected_ig_armed_forces: "Enduring Freedom"
+bin_laden_extradition_rejected_ig_armed_forces_desc: "The Armed Forces are angered by the government's failure to secure Bin Laden's extradition."
+
+bin_laden_extradition_rejected_ig_armed_forces_2: "Did not invade Afghanistan"
+bin_laden_extradition_rejected_ig_armed_forces_2_desc: "The Armed Forces are angered by the government's failure to secure Bin Laden's extradition."
+
+operation_enduring_freedom: "Operation Enduring Freedom"
+
+
+limited_response: "Limited Response"
+heightened_security_measures: "Heighted Security Measures"
+
+afghanistan.1.t: "U.S. Demands Extradition of Bin Laden"
+afghanistan.1.d: "The United States has formally requested that Afghanistan hand over Osama bin Laden, accused mastermind of the September 11 attacks. Accepting this request could ease tensions — but refusal may provoke severe consequences."
+afghanistan.1.a: "Comply with the request."
+afghanistan.1.b: "Refuse."
+
+# 2003 Invasion of Iraq
+
+iraq_war.1.t: "The UN Convenes on Iraq WMD Claims"
+iraq_war.1.d: "The United States has accused Iraq of harboring weapons of mass destruction. The UN has convened an emergency session to discuss the issue and gather international responses."
+iraq_war.1.a: "The debate begins."
+
+iraq_war.2.t: "UN Debate on Iraq WMDs"
+iraq_war.2.d: "The international community debates how to respond to the U.S. accusations against Iraq."
+iraq_war.2.a: "Support the United States."
+iraq_war.2.b: "Side with Iraq."
+iraq_war.2.c: "Remain Neutral."
+
+iraq_war.3.t: "NATO Response to U.S. Accusations"
+iraq_war.3.d: "As NATO allies, we must decide whether to support the United States’ position on Iraq’s alleged WMD program."
+iraq_war.3.a: "We will stand with the U.S."
+iraq_war.3.b: "We cannot support this action."
+
+iraq_war.4.t: "Iraq Responds to Accusations"
+iraq_war.4.d: "Iraq has been accused of harboring WMDs. The government must respond to mounting pressure from abroad."
+iraq_war.4.a: "Deny everything and endure isolation."
+iraq_war.4.b: "Condemn the West and mobilize propaganda."
+  
+iraq_war.5.t: "The U.S. Pleads to the UN"
+iraq_war.5.d: "The United States has presented its case before the United Nations, urging support for military action against Iraq over its alleged weapons of mass destruction. World leaders must now decide whether to endorse Washington’s plea or resist intervention."
+iraq_war.5.b: "The UN is deadlocked — we must act alone"
+iraq_war_us_lobby_tt: "The U.S. lobbies key powers for support, adjusting diplomatic relations."
+iraq_war_unfail_tt: "Born just in time to die in the middle east."
+
+iraq_war.6.t: "The U.S. Decides on War"
+iraq_war.6.d: "With the United Nations paralyzed by division, Washington faces a momentous decision: to act alone and confront Iraq militarily, or to back down and risk appearing weak before the world."
+iraq_war.6.a: "Launch the Invasion of Iraq"
+iraq_war.6.b: "Step back and avoid war"
+iraq_war_backdown_tt: "The U.S. retreats from intervention, losing international prestige."
+2003_invasion_of_iraq: "2003 Invasion of Iraq"
+iraq_condemned: "Iraq Condemned"
+
+############### WAR ON TERROR #####################
+
+############### WAR IN YUGOSLAVIA #################
+
+je_collapse_of_yugoslavia: "Collapse of Yugoslavia"
+je_collapse_of_yugoslavia_reason: "Yugoslavia stands on the edge of disintegration. Ethnic divisions and nationalism are boiling over."
+je_yugoslav_wars_serbia_reason: "The Yugoslav Wars were a series of ethnically-fueled conflicts that engulfed the Balkans following the disintegration of the Socialist Federal Republic of Yugoslavia in the early 1990s.\n\nFrom the wars in Slovenia and Croatia, to the brutal fighting in Bosnia and later Kosovo, Serbia found itself at the center of regional upheaval. The conflicts were marked by widespread destruction, ethnic cleansing, sieges, and mass displacement of civilians.\n\nInternational intervention came in various forms, including United Nations peacekeeping missions and NATO military campaigns. Sanctions and diplomatic isolation further strained the Serbian economy and political landscape.\n\nWhile some peace agreements brought temporary calm, deep political divisions and unresolved grievances remained. The final chapter came with the independence of Montenegro in 2006, marking the end of the era of Yugoslavia as a political entity."
+je_yugoslav_wars_serbia: "The Yugoslav Wars"
+
+yugoslavia.1.t: "The End of Yugoslavia"
+yugoslavia.1.d: "The political structure of Yugoslavia is crumbling. Secession seems imminent."
+yugoslavia.1.a: "Brace for fragmentation."
+
+yugoslavia.2.t: "Croatia Declares Independence"
+yugoslavia.2.d: "The Croatian leadership has declared full independence, the government in Belgrade has fallen into total anarchy."
+yugoslavia.2.a: "Ridiculous! Immediately send in the troops!"
+
+yugoslavia.3.t: "Bosnia and Slovenia Declare Independence"
+yugoslavia.3.d: "Bosnia and Slovenia have followed Croatia’s lead."
+yugoslavia.3.a: "The federation falls apart."
+
+yugoslavia.4.t: "The World Reacts"
+yugoslavia.4.d: "World leaders are watching. Will the UN act?"
+yugoslavia.4.a: "Request international peacekeepers."
+yugoslavia.4.b: "Reject foreign interference."
+
+post_yugoslav_turmoil: "Post-Yugoslav Turmoil"
+un_peacekeeping_forces: "UN Peacekeeping Forces"
+
+begin_disintegration_tt: "The Yugoslav federation begins to unravel."
+croatia_breaks_tt: "Croatia leaves Yugoslavia."
+bosnia_slovenia_breaks_tt: "Bosnia and Slovenia declare independence."
+peacekeeping_mission_tt: "UN forces will attempt to stabilize the region."
+intervention_declined_tt: "The international community turns away."
+yugoslavia_collapse_tt: "Yugoslavia has collapsed into multiple states."
+ 
+croatian_war_of_independence:0 "The Croatian War of Independence"
+bosnia_war:0 "Bosnia War"
+
+yugoslavia_has_collapsed:0 "The Bosnian War has begun"
+
+je_reunify_yugoslavia: "Reunification of Yugoslavia"
+je_reunify_yugoslavia_reason: "With the federation shattered, Serbia seeks to rebuild a greater Yugoslavia under its leadership."
+
+reunify_yugoslavia: "Reunite Yugoslavia"
+reunify_yugoslavia_reason: "Now that the former republics are aligned or subdued, Serbia can rebuild Yugoslavia."
+
+yugoslavia.5.t: "Serbia Demands Reunification"
+yugoslavia.5.d: "Serbia has formally requested our re-entry into a unified Yugoslavia."
+yugoslavia.5.a: "We will accept their leadership."
+yugoslavia.5.b: "We will remain independent."
+
+yugoslav_restoration_success: "Restored Yugoslav Unity"
+yugoslavia_unified_nationalism: "Unified National Identity"
+anti_serbian_sentiment: "Anti-Serbian Sentiment"
+
+reunification_success_tt: "The Yugoslav republics have been brought back under one banner."
+accepts_reunion_tt: "Joins Serbia under a new federation."
+rejects_reunion_tt: "Rejects Serbian attempts to restore Yugoslavia."
+country_reunified_tt: "Yugoslavia is reborn from the ashes of the old."
+
+srpska.1.t: "Srpska Offensive"
+srpska.1.d: "Serb leaders in Bosnia refuse to remain under Sarajevo's rule and are mobilizing. Should Serbia intervene in support?"
+
+srpska.1.a: "Launch the Invasion!"
+srpska.1.b: "We will not escalate."
+
+modifier_srpska_invasion: "Srpska Offensive"
+srpska_war_launched_tt: "A diplomatic play to conquer Bosnia and Herzegovina will be initiated."
+ 
+kosovo_war: "Kosovo War"
+
+kosovo_events.1.t: "The Kosovo Conflict Begins"
+kosovo_events.1.d: "Tensions in the province of Kosovo have erupted into armed conflict between Serbian forces and ethnic Albanian separatists."
+kosovo_events.1.a: "The fighting has begun."
+
+kosovo_events.2.t: "Proposal for NATO Air Campaign"
+kosovo_events.2.d: "In response to escalating violence, NATO members debate launching an air campaign against Serbian military targets."
+kosovo_events.2.a: "Authorize the bombing campaign."
+kosovo_events.2.b: "Refrain from intervention."
+
+kosovo_events.3.t: "The Bombing of Yugoslavia"
+kosovo_events.3.d: "NATO forces have begun a sustained bombing campaign, causing significant damage to infrastructure and political stability."
+kosovo_events.3.a: "We will endure."
+
+kosovo_war_progress_tt: "The Kosovo conflict is ongoing.\n\nEscalation Level: [GetGlobalVariable('kosovo_war_escalation')].\nIf NATO intervention occurs, destruction and political fallout will escalate."
+
+nato_bombing_aftermath: "Aftermath of NATO Bombing"
+nato_bombing_aftermath_desc: "Widespread destruction and political instability follow the NATO bombing campaign, hampering recovery for years."
+
+yugoslav_war_crimes.1.t: "Siege of Sarajevo"
+yugoslav_war_crimes.1.d: "Reports have emerged of sustained shelling and sniper attacks against Sarajevo, causing immense civilian casualties and widespread destruction. The world watches in shock as the humanitarian crisis deepens."
+yugoslav_war_crimes.1.a: "Continue the siege, despite international condemnation."
+
+yugoslav_war_crimes.2.t: "Srebrenica Massacre"
+yugoslav_war_crimes.2.d: "Thousands of Bosniak civilians have been killed in Srebrenica, despite the area being declared a UN safe zone. This atrocity has shocked the global community and sparked calls for immediate intervention."
+yugoslav_war_crimes.2.a: "Deny wrongdoing and proceed."
+
+yugoslav_war_crimes.3.t: "Global Reaction to the Siege of Sarajevo"
+yugoslav_war_crimes.3.d: "The ongoing siege has become a rallying point for international outrage. Governments debate whether to impose sanctions, provide aid to Bosnia, or directly intervene."
+yugoslav_war_crimes.3.a: "Condemn Serbia and aid Bosnia."
+yugoslav_war_crimes.3.b: "Issue a mild statement of concern."
+
+yugoslav_war_crimes.4.t: "Global Reaction to the Srebrenica Massacre"
+yugoslav_war_crimes.4.d: "The Srebrenica massacre is considered one of the worst atrocities in Europe since the Second World War. The international community considers severe measures, including military intervention."
+yugoslav_war_crimes.4.a: "Condemn Serbia and take decisive action."
+yugoslav_war_crimes.4.b: "Condemn Serbia but avoid military escalation."
+  
+yugoslav_war_crimes.5.t: "The Srebrenica Massacre"
+yugoslav_war_crimes.5.d: "Word has reached us of the mass killing of thousands of Bosniak civilians in the UN-declared safe zone of Srebrenica. This atrocity has shaken our nation to its core and hardened our resolve to resist Serbian aggression."
+yugoslav_war_crimes.5.a: "The world must not forget this."
+ 
+# canada
+
+canada.1.t:0 "Highway of Tears"
+canada.1.d:0 "A stretch of British Columbia’s Highway 16, commonly referred to as the Highway of Tears, has become a symbol of tragedy and injustice in Canada, where dozens of Indigenous women and girls have gone missing or been murdered since the 1970s. Spanning between Prince George and Prince Rupert, the remote area has long lacked public transportation, forcing many to hitchhike—often with deadly consequences."
+canada.1.f:0 "They (the authorities) put her in a steel box. It had to be a closed casket because of the way they found her ...” He pauses to hold back his tears, before stammering out the words, “she … was deteriorated."
+
+canada.1.a:0 "Unfortunately, there's much more pressing issues facing this country."
+canada.1.b:0 "We should be ashamed!"
+
+# japan
+
+japan.1.t: "Fukushima Nuclear Disaster"
+japan.1.d: "Following a massive earthquake and tsunami, the Fukushima Daiichi Nuclear Power Plant suffered catastrophic failures, releasing radioactive material into the environment. The disaster has shocked the world, prompting global debates about nuclear safety and emergency preparedness."
+japan.1.a: "A national tragedy — and a global wake-up call."
+
+fukushima_nuclear_disaster: "Fukushima Nuclear Disaster"
+fukushima_nuclear_disaster_desc: "Severe damage to the Fukushima Daiichi plant has led to radioactive contamination, disruption of infrastructure, and a long-term national recovery effort."
+
+# south sudan
+
+southsudan.1.t: "South Sudanese Independence Referendum"
+southsudan.1.d: "After decades of conflict and a decisive referendum, the southern states of Sudan have seceded to form the Republic of South Sudan. The central government in Khartoum faces a fateful choice: accept the new nation or go to war to reclaim it."
+southsudan.1.a: "We will not allow Sudan to be divided."
+southsudan.1.b: "Let them go, for the sake of peace."
+
+# russia
+
+first_chechen_war: "First Chechen War"
+
+russia_parliament_resisting: "Parliament Resisting"
+russia_military_loyality: "Military Complicit"
+russia_parliamentary_support: "Parliamentary Support"
+russia_constitution_crisis_resolved_mod: "Crisis Averted"
+
+je_russian_constitutional_crisis: "Russian Constitutional Crisis"
+je_russian_constitutional_crisis_reason: "The year 1993 has brought Russia to the brink of political collapse.\n\nPresident Boris Yeltsin, seeking to consolidate executive authority, has ordered the dissolution of the Russian parliament, accusing its members of obstructing reforms and resisting democratization. The parliament, in turn, has declared Yeltsin's decree unconstitutional, refusing to disband and rallying supporters to its cause.\n\nFor weeks, tensions mount as rival factions gain the backing of different elements of the military, security forces, and the general public. The government apparatus fractures, with loyalty to either the executive or legislative branch determining the fate of the Russian Federation.\n\nThis confrontation is more than a political dispute — it is a battle over the very nature of Russia's governance in the post-Soviet era. Should the crisis spiral out of control, civil violence in the heart of Moscow is not only possible, but inevitable."
+
+je_russia_wild_nineties: "The Wild Nineties"
+je_russia_wild_nineties_reason: "The ‘The wild nineties’ (Russian: Лихие девяностые, Likhiye devyanostyye) is a term with a negative evaluative connotation, characterising the period of the transition period after the collapse of the Soviet Union and Russian Federation's formation in the 1990s. \n\nRussia’s turbulent transition from Soviet rule to a capitalist democracy has unleashed a wave of instability, corruption, and violence. The early post-Soviet years have been marked by economic collapse, the rise of oligarchs, political showdowns, and a surge in organized crime.\n\nFrom the shelling of parliament to the privatization scandals, each month seems to bring new upheavals. The country teeters between reform and chaos, and the people’s patience wears thin."
+
+rus_events.0.t: "The 1993 Russian Constitutional Crisis Begins"
+rus_events.0.d: "President Boris Yeltsin has issued a decree dissolving the Russian parliament, accusing it of obstructing democratic reforms and threatening the stability of the Federation. Parliament has declared the move unconstitutional, calling upon the military and citizens to resist.\n\nMoscow is bracing for confrontation as rival factions rally their supporters. The fate of Russia's fragile democracy now hangs in the balance."
+rus_events.0.a: "The nation holds its breath."
+
+1993_russian_crisis_tt: "The crisis has concluded"
+rus_events.1.t: "The Constitutional Crisis"
+rus_events.1.d: "President Yeltsin has announced the dissolution of parliament, but the legislators refuse to step down, barricading themselves in the White House. Tensions are escalating rapidly."
+rus_events.1.a: "Side with the President"
+rus_events.1.a.tt: "The military will back the executive."
+rus_events.1.b: "Support the Parliament"
+rus_events.1.b.tt: "We will defend the legislature's authority."
+
+rus_events.2.t: "Military Backs the President"
+rus_events.2.d: "The armed forces have taken control of the streets, shelling the parliament building and securing Yeltsin's authority."
+rus_events.2.a: "The crisis is over."
+
+rus_events.3.t: "Parliamentary Victory"
+rus_events.3.d: "Despite pressure from the executive, the parliament has rallied popular support and retained its power."
+rus_events.3.a: "The crisis is over."
+
+rus_events.4.t: "Storming of the White House"
+rus_events.4.d: "Moscow is in chaos. Pro-presidential troops have surrounded the Russian White House, home to the parliament's leadership, and opened fire with tanks and small arms. Smoke billows from the upper floors as the building is set ablaze. The final resistance collapses as military forces seize control, marking the end of the standoff — but at the cost of lives and the country's political innocence."
+rus_events.4.a: "Order is restored — for now."
+
+# chechnya
+
+je_first_chechen_war_reason: "The First Chechen War began in late 1994 as the Russian Federation attempted to regain control over the breakaway Chechen Republic of Ichkeria.\n\nThe conflict would prove costly in lives and resources, with fierce urban combat in Grozny and widespread devastation in the North Caucasus.\n\nEnding the war without clear victory could damage government credibility, but continuing the fight risks prolonged instability."
+je_first_chechen_war: "Chechen War"
+chechen_war_resolved: "Chechen War Resolved"
+
+chechen_events.1.t: "War in Chechnya"
+chechen_events.1.d: "Russian forces have entered Chechnya to restore federal control, beginning what is expected to be a swift operation. However, the mountainous terrain and determined local resistance could turn this into a prolonged conflict."
+chechen_events.1.a: "We will restore order."
+
+chechen_events.2.t: "Assault on Grozny"
+chechen_events.2.d: "The Battle of Grozny has begun, with Russian forces attempting to seize the Chechen capital. The fighting is intense, with heavy casualties on both sides."
+chechen_events.2.a: "Push forward, no matter the cost."
+
+chechen_events.3.t: "Peace Talks in Chechnya"
+chechen_events.3.d: "After months of fighting, war weariness has grown on both sides. A proposal for a ceasefire has been placed on the table, offering an end to the bloodshed."
+chechen_events.3.a: "Accept the peace and withdraw forces."
+chechen_events.3.b: "Continue the war until victory."
+
+# haiti
+
+uphold_democracy: "Operation Uphold Democracy"
+
+haiti_events.1.t: "Operation Uphold Democracy"
+haiti_events.1.d: "In September 1994, the United States launched a military intervention in Haiti to restore the democratically elected President Jean-Bertrand Aristide, ousted in a 1991 coup. U.S. forces, supported by international allies, secured key areas, paving the way for Aristide's return."
+haiti_events.1.a: "Deploy forces to restore democracy."
+haiti_events.1.b: "We will prepare for foreign troops."
+
+haiti_events.2.t: "Foreign Troops Arrive"
+haiti_events.2.d: "American forces have landed in Haiti, taking control of strategic locations. The intervention is justified as a means to restore democratic governance, but it raises questions about sovereignty and foreign influence."
+haiti_events.2.a: "We must cooperate to avoid bloodshed."
+
+je_haiti_political_crisis: "Haitian Political Crisis"
+je_haiti_political_crisis_reason: "Following the democratic election of President Jean-Bertrand Aristide in 1990, Haiti experienced a brief moment of optimism. However, the fragile stability was shattered in September 1991 when a military coup ousted Aristide, plunging the country into political chaos.\n\nThe military regime faced international condemnation, as human rights abuses and political repression became widespread. Economic sanctions imposed by the United Nations and the Organization of American States severely impacted Haiti’s already struggling economy.\n\nThroughout 1992 and 1993, negotiations between the military junta and Aristide’s supporters faltered, while violence against political opponents and the general population intensified. Attempts by the United Nations Mission in Haiti (UNMIH) to restore democratic governance met with obstruction.\n\nBy 1994, mounting pressure from the international community, particularly the United States, set the stage for direct intervention. Operation Uphold Democracy, led by U.S. forces in September 1994, aimed to restore Aristide to power and bring an end to the junta’s rule."
+
+# quebec
+# [GetPlayer.MakeScope.GetVariable('quebec_happiness_var').GetValue|0]
+
+je_quebec_happiness: "The Quebec Situation"
+je_quebec_happiness_reason: "The status of Quebec within Canada has been a contentious issue for decades. Quebec’s distinct culture, language, and history have often fueled debates about autonomy and independence.\n\nIn the years leading up to the 1995 Quebec Referendum, the relationship between Quebec and the federal government of Canada has been marked by tension, negotiation, and the occasional flare-up of nationalist sentiment.\n\nThe province of Quebec, with its unique French-speaking majority, distinct cultural identity, and long history of advocating for autonomy, has periodically sought to redefine its place within the Canadian federation. Some Quebecois desire complete independence, others wish for increased provincial powers, while many still support remaining in a unified Canada.\n\nAs Prime Minister, your task is to navigate this delicate situation. You must balance national unity with respect for Quebec's cultural and political aspirations. Every decision you make — whether on language laws, economic policy, or cultural investment — will influence the happiness of the Quebecois population.\n\nIf the Quebec Happiness score remains high, the referendum may end with a vote to stay in Canada. But if discontent grows too strong, the people of Quebec may vote for independence, forever altering the map of North America."
+quebec_happiness_bar_desc: "Franco-Canadian Happiness"
+quebec_happiness_monthly_tt: "Monthly change in Quebec Happiness."
+quebec_happiness_bar:0 "Support for Quebec's Independence"
+recently_pissed_quebec_off:0 "Has not recently angered Quebec"
+
+too_many_quebec_concessions: "Too Many Concessions; Quebecers Unimpressed"
+quebec_happiness_10: "#green Increases#! Franco-Canadian Happiness by #green 5#! points"
+quebec_happiness_minus_10: "#r Decreases#! Franco-Canadian Happiness by #r 5#! points"
+
+quebec.6.t: "Complacency in Quebec"
+quebec.6.d: "With Quebec's overwhelming satisfaction, the federal government has grown complacent. Ottawa believes the unity question is settled, but critics warn that such overconfidence can lead to neglect of other important issues."
+quebec.6.a: "Tabarnak!"
+
+complacent_on_quebec: "Complacency on Quebec"
+complacent_on_quebec_desc: "With high Quebec support, the government has become complacent in its negotiations and policy attention, leading to growing criticism from other factions."
+ 
+quebec_concessions_button: "Make Concessions to Quebec"
+quebec_concessions_button_desc: "Offer political and cultural concessions to Quebec, increasing their happiness."
+
+quebec_ignore_button: "Ignore Quebec's Demands"
+quebec_ignore_button_desc: "Refuse to engage with Quebec’s political demands, decreasing their happiness."
+
+quebec.1.t: "Tensions in Quebec"
+quebec.1.d: "Political tensions rise in Quebec as debates over autonomy and language rights intensify."
+quebec.1.a: "Offer assurances to Quebec."
+quebec.1.b: "Stand firm on national unity."
+
+quebec.2.t: "The 1995 Quebec Referendum"
+quebec.2.d: "After years of debate, Quebec votes on whether to remain part of Canada or become an independent nation."
+quebec.2.a: "The people have chosen unity."
+quebec.2.b: "Quebec votes for independence!"
+
+quebec.3.t: "French Language Dispute"
+quebec.3.d: "A federal policy proposal threatens to reduce the status of French in Quebec, sparking outrage from many citizens."
+quebec.3.a: "Protect the French language at all costs."
+quebec.3.a.tt: "Quebec Happiness will increase by #G +8#!."
+quebec.3.b: "Maintain current policy."
+quebec.3.b.tt: "Quebec Happiness will decrease by #R -5#!."
+quebec.3.b.tt2: "You will be allowed to make more concessions"
+
+quebec.4.t: "Federal Funding Cuts to Quebec"
+quebec.4.d: "The federal government faces budget pressures, and Quebec’s funding for infrastructure and services is on the chopping block."
+quebec.4.a: "Proceed with the cuts."
+quebec.4.a.tt: "Quebec Happiness will decrease by #R -7#!."
+quebec.4.b: "Cut less from Quebec."
+quebec.4.b.tt: "Quebec Happiness will decrease by #R -2#!."
+
+quebec.5.t: "Quebec Cultural Festival"
+quebec.5.d: "A massive celebration of Quebecois culture draws national and international attention, fostering pride and unity."
+quebec.5.a: "Celebrate and increase funding for culture."
+quebec.5.a.tt: "Quebec Happiness will increase by #G +10#!."
+quebec.5.b: "Congratulate the organizers, but no extra funding."
+quebec.5.b.tt: "Quebec Happiness will increase by #G +3#!."
+
+# China
+
+je_china_southern_tour: "Southern Tour"
+je_china_southern_tour_reason: "In early 1992, Deng Xiaoping embarked on his famous 'Southern Tour', traveling to Shenzhen, Zhuhai, Guangzhou, and Shanghai.\n\nHis speeches promoted continued economic reform, market liberalization, and the expansion of special economic zones. The tour revitalized reformist momentum within the Communist Party and reassured both domestic and foreign investors that China's 'reform and opening up' would continue.\n"
+je_china_southern_tour_progress_tt: "Progress increases each month and through certain events."
+
+southern_tour_reforms: "Southern Tour Economic Legacy"
+je_china_southern_tour_complete: "Deng Xiaoping has completed his tour"
+china_southern_tour.1.t: "Deng Xiaoping's Southern Tour"
+china_southern_tour.1.d: "Deng Xiaoping has begun a highly publicized tour of southern China, visiting key special economic zones and urging officials to continue reforms."
+china_southern_tour.1.a: "The journey begins."
+
+china_southern_tour.2.t: "Calls for Market Reform"
+china_southern_tour.2.d: "In speeches during the Southern Tour, Deng Xiaoping called for renewed commitment to market-oriented reforms."
+china_southern_tour.2.a: "Support the push."
+china_southern_tour.2.b: "Maintain the current pace."
+
+china_southern_tour.3.t: "Internal Party Resistance"
+china_southern_tour.3.d: "Conservative elements within the Party have expressed concerns about the pace and scope of economic liberalization."
+china_southern_tour.3.a: "Push ahead regardless."
+china_southern_tour.3.b: "Negotiate a compromise."
+
+# Rwanda
+
+genocide_ended: "Genocide has concluded"
+the_genocide_progresses_by_15: "The genocide heats up by 15 points"
+the_genocide_progresses_by_10: "The genocide heats up by 10 points"
+the_genocide_progresses_by_20: "The genocide heats up by 20 points"
+
+post_rwandan_genocide_reconstruction: "Post Genocide Reconstruction"
+rwandan_genocide: "Tutsi Genocide"
+
+je_rwandan_genocide: "Rwandan Genocide"
+je_rwandan_genocide_reason: "In April 1994, a plane carrying the presidents of Rwanda and Burundi was shot down, triggering one of the most horrific genocides of the late 20th century.\n\nExtremist militias, with government support, began mass killings targeting the Tutsi minority and moderate Hutus. International awareness was slow to build, but as massacres spread, calls for intervention mounted.\n\n"
+
+je_rwandan_genocide_progress_tt: "Progress increases over time and through violent events. Intervention can reduce progress."
+
+rwandan_genocide.1.t: "The Genocide Begins"
+rwandan_genocide.1.d: "Following the assassination of President Habyarimana, extremist forces have begun widespread killings targeting the Tutsi minority."
+rwandan_genocide.1.a: "A dark chapter begins."
+
+rwandan_genocide.2.t: "Massacres Continue"
+rwandan_genocide.2.d: "Reports from rural regions describe entire communities wiped out in coordinated attacks."
+rwandan_genocide.2.a: "The violence escalates."
+
+rwandan_genocide.3.t: "International Outcry"
+rwandan_genocide.3.d: "Graphic images and survivor accounts have reached the global media, prompting urgent calls for the UN to act."
+rwandan_genocide.3.a: "Request peacekeepers."
+rwandan_genocide.3.b: "Do nothing."
+
+rwandan_genocide_request_peacekeepers_tt: "This will trigger a UN vote on deploying peacekeepers to Rwanda."
+rwandan_genocide_community_angry: "This will anger the international community"
+
+rwandan_genocide.4.t: "UN Peacekeeping Vote"
+rwandan_genocide.4.d: "The United Nations Security Council has convened to vote on whether to send peacekeeping forces to Rwanda."
+
+# United Kingdom
+
+good_friday_agreement_tt: "Good Friday Agreement has been signed"
+
+this_will_piss_off_ira: "#R The IRA will increase the ferocity of their attacks.#!"
+
+increases_troop_strength_5: "Increases Troop Presence by #G 5%#!"
+increases_troop_strength_10: "Increases Troop Presence by #G 10%#!"
+decreases_troop_strength_5: "Decrease Troop Presence by #R 5%#!"
+decreases_troop_strength_10: "Decrease Troop Presence by #R 10%#!"
+
+recent_ira_attack: "Recent Attack"
+reunification_pride: "Reunification Pride"
+below_99_troop_strr: "Below 100% troop strength"
+
+ # The Troubles
+
+je_troubles_in_northern_ireland: "The Troubles in Northern Ireland"
+je_troubles_in_northern_ireland_reason: "Northern Ireland has become a flashpoint of political violence between nationalist and unionist communities, escalating into armed conflict involving paramilitary groups, civilians, and the British Army.\n\nWe must carefully manage troop presence and political responses to stabilize the region."
+
+je_troubles_increase_troop_button: "Increase Troop Presence"
+je_troubles_increase_troop_button_desc: "Deploy more British Army forces into Northern Ireland to reinforce control and maintain order."
+
+troubles_troop_strength_bar: "Troop Presence in Northern Ireland"
+troubles_troop_strength_bar_desc: "Troop Strength"
+troubles_troop_strength_bar_monthly_desc: "Measures the strength of British troop deployments in Northern Ireland."
+
+troubles_events.1.t: "Bombing in Belfast"
+troubles_events.1.d: "A car bomb exploded in Belfast, killing civilians and heightening tensions."
+troubles_events.1.a: "Tragic."
+
+troubles_events.2.t: "Troops Under Attack"
+troubles_events.2.d: "British soldiers came under fire from insurgents in Derry."
+troubles_events.2.a: "We must respond."
+
+troubles_events.3.t: "Civil Rights Protest"
+troubles_events.3.d: "A large protest in Londonderry turned violent after clashes with police."
+troubles_events.3.a: "A worrying development."
+
+troubles_events.4.t: "Reinforcements Arrive"
+troubles_events.4.d: "Fresh troops have arrived in Northern Ireland, bolstering our presence."
+troubles_events.4.a: "Good."
+
+troubles_events.5.t: "Gunmen Kill Civilians In Irish Pub"
+troubles_events.5.d: "A deadly shooting in Northern Ireland has shaken local communities, a sad reflection of the violence during the ongoing troubles."
+troubles_events.5.a: "The road to peace is never straight."
+ 
+je_northern_ireland_peace_process: "Northern Ireland Peace Process"
+je_northern_ireland_peace_process_reason: "After decades of conflict, known as 'The Troubles', the governments of the United Kingdom and Ireland — alongside Northern Ireland’s political parties — have entered a period of negotiations.\n\nFrom the Downing Street Declaration to multi-party talks and potential ceasefires, these discussions could end years of bloodshed.\n\nThe outcome will depend on political will, public opinion, and the ability to compromise."
+
+ni_peace_process_success_tt: "The peace process has succeeded, increasing stability in Northern Ireland."
+
+ni_peace_events.1.t: "Downing Street Declaration"
+ni_peace_events.1.d: "The British and Irish governments issued a joint declaration affirming the right of the people of Northern Ireland to decide their future."
+ni_peace_events.1.a: "A significant step forward."
+
+ni_peace_events.2.t: "Multi-party Talks Begin"
+ni_peace_events.2.d: "For the first time, representatives of most Northern Irish political factions meet at the negotiating table."
+ni_peace_events.2.a: "Dialogue is the path to peace."
+
+ni_peace_events.3.t: "The Good Friday Agreement"
+ni_peace_events.3.d: "Paramilitary groups in Northern Ireland have announced a ceasefire, opening the door to a lasting peace, following a string of positive talks between the Government of the United Kingdom and Ireland."
+ni_peace_events.3.a: "The guns fall silent."
+
+ni_peace_events.5.t: "British Troops Kicked From Northern Ireland"
+ni_peace_events.5.d: "With troop presence in Northern Ireland reduced to nothing, the British government finds itself unable to maintain control. In a surprise move, the government formally cedes Northern Ireland to the Republic of Ireland."
+ni_peace_events.5.a: "We have no choice."
+ni_peace_events.5.a.tt: "Northern Ireland will be transferred to Ireland."
+
+ni_peace_events.6.t: "Reunification of Ireland"
+ni_peace_events.6.d: "After decades of division, Northern Ireland has officially joined the Republic of Ireland. Streets fill with celebrations as the nation looks to a united future."
+ni_peace_events.6.a: "Pop the Champagne!"
+reunification_pride: "Reunification Pride"
+reunification_pride_desc: "The joy of national reunification has bolstered public unity and strengthened the government's standing."
+ 
